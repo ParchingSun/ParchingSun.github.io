@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ParchingSun.github.io</id>
     <title>啪卿领域</title>
-    <updated>2020-11-03T16:16:54.548Z</updated>
+    <updated>2020-11-04T14:48:02.317Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://ParchingSun.github.io"/>
     <link rel="self" href="https://ParchingSun.github.io/atom.xml"/>
@@ -10,6 +10,39 @@
     <logo>https://ParchingSun.github.io/images/avatar.png</logo>
     <icon>https://ParchingSun.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 啪卿领域</rights>
+    <entry>
+        <title type="html"><![CDATA[游戏万象物语初探]]></title>
+        <id>https://ParchingSun.github.io/post/wan-xiang-wu-yu/</id>
+        <link href="https://ParchingSun.github.io/post/wan-xiang-wu-yu/">
+        </link>
+        <updated>2020-11-04T13:40:30.000Z</updated>
+        <content type="html"><![CDATA[<h3 id="基本资源">基本资源</h3>
+<p>库伦：基本货币<br>
+魂晶碎片：高阶货币，可发挥部分透晶石的作用<br>
+透晶石：现实货币，最主要的用途是赋魂（抽卡）<br>
+魂能：用来升级人物</p>
+<h3 id="基本玩法">基本玩法</h3>
+<p>回合制格斗 剧情 养成<br>
+<img src="https://ParchingSun.github.io/post-images/1604498856697.jpg" alt="" loading="lazy"><br>
+白、黄、紫代表不同人物，滑屏连接同类型颜色可以发动不同的技能（目前已知的连接方式只有横2/竖2和斜向4），连接的圆圈会消失，右侧颜色球向左自动填补；左侧圆圈内为参谋技，右侧圆圈内为宝箱内掉落的技能。<br>
+本质上是融合了<strong>俄罗斯方块和横向格斗游戏玩法的结合</strong>，使得游戏获得了一定的策略性。</p>
+<h3 id="美术风格">美术风格</h3>
+<p>奇幻、二次元和卡通三种风格并行。在人物立绘、场景绘制、界面美工上都有奇幻的风格，冷色调较多，重结构轻细节；但有部分人物又更靠近二次元一些；在剧情和战斗界面则是卡通可爱风的人物模型。<br>
+<img src="https://ParchingSun.github.io/post-images/1604499690142.png" alt="" loading="lazy"><br>
+<em>图为充满东方奇幻风格的新手引导里的小姐姐，神秘感Max~</em><br>
+<img src="https://ParchingSun.github.io/post-images/1604499793392.jpg" alt="" loading="lazy"><br>
+<em>图为主线剧情的主角太阳王国公主安洁莉娅，有没有感受到浓浓的二次元风</em><br>
+<img src="https://ParchingSun.github.io/post-images/1604499921213.jpg" alt="" loading="lazy"><br>
+<em>图为剧情内人物模型，立绘里有多美，剧情内就有多可爱</em></p>
+<h3 id="新手引导亮点">新手引导亮点</h3>
+<p>新奇的战斗<br>
+活泼的剧情，采用了表情符号+文字的方式，让人物的语气神态更容易被意会<br>
+<img src="https://ParchingSun.github.io/post-images/1604500451666.png" alt="" loading="lazy"><br>
+<em>无语的娜雅和可爱的小魔物</em><br>
+鲜活的人物，文案人员通过细节刻画人物的功力很足，目前接触到的人物个个都很有特色，还没有见到大众脸：对一切都充满好奇和热情的蒂卡、充满荣誉感的王国治安官娜雅、沉稳有礼的庞、天真理想的安洁公主、外表厉色内心憨厚的刃<br>
+<em>庞言必称“在下”、“阁下”，娜雅常常提到其王国治安官的身份，刃在面对胡闹的安洁时的那句“八嘎”简直不要太有爱</em></p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[【游戏基础知识】11.3]]></title>
         <id>https://ParchingSun.github.io/post/youxizhishi/</id>
