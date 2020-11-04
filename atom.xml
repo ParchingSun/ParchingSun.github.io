@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ParchingSun.github.io</id>
     <title>啪卿领域</title>
-    <updated>2020-11-04T16:28:04.798Z</updated>
+    <updated>2020-11-04T16:36:35.443Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://ParchingSun.github.io"/>
     <link rel="self" href="https://ParchingSun.github.io/atom.xml"/>
@@ -11,7 +11,7 @@
     <icon>https://ParchingSun.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 啪卿领域</rights>
     <entry>
-        <title type="html"><![CDATA[【他山之石】11.5]]></title>
+        <title type="html"><![CDATA[【游戏基础知识】11.5]]></title>
         <id>https://ParchingSun.github.io/post/ta-shan-zhi-shi-115/</id>
         <link href="https://ParchingSun.github.io/post/ta-shan-zhi-shi-115/">
         </link>
@@ -27,12 +27,19 @@
 </ul>
 <h3 id="论世界观">论世界观</h3>
 <ul>
-<li>世界观的作用就要用人文的东西留住玩家，因为仅仅靠数值成长是不能够满足玩家需求的</li>
+<li>世界观的作用就要用人文的东西留住玩家（<strong>粘性</strong>），因为仅仅靠数值成长是不能够满足玩家需求的</li>
 </ul>
 <h3 id="疑惑之处">疑惑之处</h3>
 <ul>
 <li>所有的游戏类型都是一个可行的解（这个游戏解决了什么问题、它有什么限制？）</li>
 <li>文字描述的背后其实是设定，设定有出彩点，那么描述肯定能优化出彩的</li>
+</ul>
+<h3 id="面试">面试</h3>
+<ul>
+<li>游戏文案的实际工作中要经常和美术沟通，要有<strong>基本的美学素养</strong>，要能准确地表达出你脑袋中的意象</li>
+<li>你如何从训练自己架构世界观的能力？</li>
+<li>如何评价对抗性强/弱的游戏？</li>
+<li><strong>巫师3中哪些点让你印象深刻？</strong></li>
 </ul>
 ]]></content>
     </entry>
