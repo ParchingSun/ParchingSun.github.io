@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ParchingSun.github.io</id>
     <title>啪卿领域</title>
-    <updated>2020-11-04T14:52:39.826Z</updated>
+    <updated>2020-11-04T16:28:04.798Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://ParchingSun.github.io"/>
     <link rel="self" href="https://ParchingSun.github.io/atom.xml"/>
@@ -10,6 +10,32 @@
     <logo>https://ParchingSun.github.io/images/avatar.png</logo>
     <icon>https://ParchingSun.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 啪卿领域</rights>
+    <entry>
+        <title type="html"><![CDATA[【他山之石】11.5]]></title>
+        <id>https://ParchingSun.github.io/post/ta-shan-zhi-shi-115/</id>
+        <link href="https://ParchingSun.github.io/post/ta-shan-zhi-shi-115/">
+        </link>
+        <updated>2020-11-04T16:13:54.000Z</updated>
+        <content type="html"><![CDATA[<h3 id="如何从玩家成为游戏设计师">如何从玩家成为游戏设计师？</h3>
+<ul>
+<li>游戏品类全景（操作-手残/思考-休闲的十字坐标系）</li>
+<li>抛开美术表现来审视游戏设计，“存粹的设计之美”</li>
+<li>如何在玩游戏时反推设计者思维：<br>
+（1）<strong>我现在的目标是什么，这个目标是怎么产生的？</strong><br>
+（2）<strong>我现在有哪些信息，哪些选择？</strong></li>
+<li>学习游戏引擎工具，把自己的方法更快地展现出来</li>
+</ul>
+<h3 id="论世界观">论世界观</h3>
+<ul>
+<li>世界观的作用就要用人文的东西留住玩家，因为仅仅靠数值成长是不能够满足玩家需求的</li>
+</ul>
+<h3 id="疑惑之处">疑惑之处</h3>
+<ul>
+<li>所有的游戏类型都是一个可行的解（这个游戏解决了什么问题、它有什么限制？）</li>
+<li>文字描述的背后其实是设定，设定有出彩点，那么描述肯定能优化出彩的</li>
+</ul>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[游戏《万象物语》初体验]]></title>
         <id>https://ParchingSun.github.io/post/wan-xiang-wu-yu/</id>
