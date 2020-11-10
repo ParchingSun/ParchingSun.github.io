@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ParchingSun.github.io</id>
     <title>啪卿领域</title>
-    <updated>2020-11-10T17:04:38.977Z</updated>
+    <updated>2020-11-10T17:07:18.353Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://ParchingSun.github.io"/>
     <link rel="self" href="https://ParchingSun.github.io/atom.xml"/>
@@ -71,23 +71,31 @@
 <em>👇万象物语Flash👇</em><br>
 <img src="https://ParchingSun.github.io/post-images/1605025316735.png" alt="" loading="lazy"><br>
 <em>👇即时渲染👇</em><br>
-<img src="https://ParchingSun.github.io/post-images/1605025153971.gif" alt="" loading="lazy"><br>
--游戏文案应该具备剧情动画制作的能力</p>
+<img src="https://ParchingSun.github.io/post-images/1605025153971.gif" alt="" loading="lazy"></p>
+<ul>
+<li><strong>游戏文案应该具备剧情动画制作的能力</strong></li>
+</ul>
 <h3 id="剧情设计">剧情设计</h3>
-<p>-三条线索</p>
+<ul>
+<li>三条线索</li>
+</ul>
 <ol>
 <li>真实线：简单的故事主线、人物关系、善恶属性→第一印象</li>
 <li>逻辑线：零碎线索→引导玩家寻找“真相”</li>
 <li>反转线：颠覆玩家认为的“真相”，但要与真实线的结局吻合</li>
 </ol>
-<p>-技巧</p>
+<ul>
+<li>技巧</li>
+</ul>
 <ol>
 <li>赋予角色以情感：恩怨情仇、喜怒哀惧、爱恨离痴、贪憎</li>
 <li>反思：事情与自身有关才会产生反思，例如触及自己道德底线</li>
 <li>逆反：在游戏中宣泄现实世界中的压力和不满</li>
 <li>混淆：模糊善恶界限</li>
 </ol>
-<p>-案例分析：巫师3支线任务野性之心</p>
+<ul>
+<li>案例分析：巫师3支线任务野性之心</li>
+</ul>
 <ol>
 <li>真实线：汉娜失踪</li>
 <li>逻辑线：汉娜的妹妹谋杀了汉娜</li>
