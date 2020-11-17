@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ParchingSun.github.io</id>
     <title>啪卿领域</title>
-    <updated>2020-11-17T12:37:03.835Z</updated>
+    <updated>2020-11-17T16:38:56.928Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://ParchingSun.github.io"/>
     <link rel="self" href="https://ParchingSun.github.io/atom.xml"/>
@@ -10,6 +10,35 @@
     <logo>https://ParchingSun.github.io/images/avatar.png</logo>
     <icon>https://ParchingSun.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 啪卿领域</rights>
+    <entry>
+        <title type="html"><![CDATA[【游戏基础知识】11.17]]></title>
+        <id>https://ParchingSun.github.io/post/you-xi-ji-chu-zhi-shi-1117/</id>
+        <link href="https://ParchingSun.github.io/post/you-xi-ji-chu-zhi-shi-1117/">
+        </link>
+        <updated>2020-11-17T15:35:04.000Z</updated>
+        <content type="html"><![CDATA[<p>###名词解释<br>
+α测试：用户在公司内部的测试<br>
+β测试：用户在不同场所进行测试<br>
+Paradox Interactive：瑞典P社，“DLC才是本体”<br>
+4X策略游戏：包含explore、expand、exploit、exteminate的策略游戏<br>
+沉浸感vs短平快娱乐体验<br>
+红海市场：已经存在的、市场化程度高、竞争激烈的市场<br>
+蓝海市场：待开发的市场空间，创新需求，高利润增长机会<br>
+国战类页游/手游：强调大型互动关系，战斗以国家为单位<br>
+COC：部落冲突<br>
+COK：列王纷争<br>
+ROC：万国觉醒<br>
+ARPG：动作角色扮演，黑魂、尼尔、只狼、战神4<br>
+RPAG：Role-Playing Adventure Game，上古卷轴5、巫师3、虐杀原形、暗黑血统<br>
+SRPG：Strategy Role-Playing Game，神界：原罪2<br>
+###观点</p>
+<ol>
+<li>DLC更新的内容分类：剧情拓展；系统重做；系统拓展</li>
+<li>给资源点以剧情文案包装有其重要性</li>
+<li>传统策略手游以exploit和exteminate为主，explore和expand成分较少</li>
+</ol>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[GMS2笔记11.17]]></title>
         <id>https://ParchingSun.github.io/post/game-maker-bi-ji/</id>
