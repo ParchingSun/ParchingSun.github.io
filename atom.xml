@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ParchingSun.github.io</id>
     <title>啪卿领域</title>
-    <updated>2020-11-17T06:15:10.251Z</updated>
+    <updated>2020-11-17T12:34:51.720Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://ParchingSun.github.io"/>
     <link rel="self" href="https://ParchingSun.github.io/atom.xml"/>
@@ -10,6 +10,50 @@
     <logo>https://ParchingSun.github.io/images/avatar.png</logo>
     <icon>https://ParchingSun.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 啪卿领域</rights>
+    <entry>
+        <title type="html"><![CDATA[GMS2笔记11.17]]></title>
+        <id>https://ParchingSun.github.io/post/game-maker-bi-ji/</id>
+        <link href="https://ParchingSun.github.io/post/game-maker-bi-ji/">
+        </link>
+        <updated>2020-11-17T07:10:28.000Z</updated>
+        <content type="html"><![CDATA[<h2 id="project1-breakthrough-dnd">Project1: BreakThrough DnD</h2>
+<h3 id="名词解释">名词解释</h3>
+<p>sprites: 表示游戏世界中物体的像素点集合<br>
+objects: 程序处理的对象，是像素点集合在程序中的指称<br>
+rooms: 游戏世界中的空间、数值变化的区间、sprites移动的边界<br>
+events: 游戏中发生的事件，大体可分成生、变、灭、入<br>
+actions: 对events的具体表述（or结果），例如何时生、何时变、如何生、如何变<br>
+<em>events和actions共同决定了objects对什么事件做出何种反应。</em></p>
+<h3 id="系统分析">系统分析</h3>
+<p>世界观：Ball、Bat、Brick的设定和活动的空间<br>
+碰撞系统：三个物体之间的关系，何为碰撞、如何反弹（向量）<br>
+状态系统：玩家分数、最高分数和生命值</p>
+<h3 id="容易混淆的点">容易混淆的点</h3>
+<p>rooms中的物件并不是objects本身，只是objects的copy。这意味着这些copies在游戏中可以有不同的表现形式（通过objects的属性实现），但不改变objects本身。但是一旦改变objects本身，所有copies都会随之改变。<em>好优美的逻辑关系有没有</em></p>
+<h3 id="存在问题">存在问题</h3>
+<ol>
+<li>在得到加速buff后，会卡在屏幕右侧无法出来（正常来说应该是不能超出右侧边界的）</li>
+<li>得到扩大buff后，再得到加速buff会跳出错误</li>
+</ol>
+<h2 id="project2-spy-wire">Project2: SPY-WIRE</h2>
+<ol>
+<li>edit image可以连续绘制出几幅图片播放<br>
+<img src="https://ParchingSun.github.io/post-images/1605605710119.gif" alt="" loading="lazy"></li>
+<li>GM的坐标系的原点在左上方，X轴向右，Y轴向下</li>
+<li>创建sprite的界面<br>
+<img src="https://ParchingSun.github.io/post-images/1605606331216.png" alt="" loading="lazy"></li>
+<li>obj_tools_create_actions界面解释（平台语言→日常语言）<br>
+<img src="https://ParchingSun.github.io/post-images/1605609256936.png" alt="" loading="lazy"></li>
+<li>obj_tools_collision with obj_laser界面解释<br>
+<img src="https://ParchingSun.github.io/post-images/1605610593271.png" alt="" loading="lazy"></li>
+<li>obj_fan_step_create instance界面解释<br>
+<img src="https://ParchingSun.github.io/post-images/1605611230578.png" alt="" loading="lazy"></li>
+<li>今日效果<br>
+<img src="https://ParchingSun.github.io/post-images/1605616089794.gif" alt="" loading="lazy"></li>
+<li>存在问题：<strong>声音异常（snd_tool在播放一两次后不播放，snd_error不播放，snd_dead只在在restart room后不播放）</strong></li>
+</ol>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[同人小说《太阳风暴》（二）]]></title>
         <id>https://ParchingSun.github.io/post/tong-ren-xiao-shuo-lesslesstai-yang-feng-bao-greatergreater-er/</id>
