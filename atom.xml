@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ParchingSun.github.io</id>
     <title>啪卿领域</title>
-    <updated>2020-11-18T16:24:14.034Z</updated>
+    <updated>2020-11-18T16:42:41.735Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://ParchingSun.github.io"/>
     <link rel="self" href="https://ParchingSun.github.io/atom.xml"/>
@@ -16,7 +16,7 @@
         <link href="https://ParchingSun.github.io/post/Cytus 2-frist impression/">
         </link>
         <updated>2020-11-18T12:57:00.000Z</updated>
-        <content type="html"><![CDATA[<h3 id="音游与世界观-剧情">音游与世界观、剧情</h3>
+        <content type="html"><![CDATA[<h2 id="音游与世界观-剧情">音游与世界观、剧情</h2>
 <p><strong>孙大妖怪问节奏大师</strong>：音乐游戏需要世界观和剧情吗？<br>
 <strong>节奏大师</strong>：世界观是啥子个意思？我只知道曲库和好友系统<br>
 <strong>音乐世界Cytus Ⅱ</strong>：……果然背靠大佬就是可以为所欲为<br>
@@ -35,11 +35,11 @@ Cystus Ⅱ以一款音乐游戏将世界观和剧情包括进来确实令我耳�
 <em>👇剧情展开</em><br>
 <img src="https://ParchingSun.github.io/post-images/1605716623915.jpg" alt="" loading="lazy"></li>
 </ol>
-<h3 id="cystus-ii在世界观和剧情上分别做了什么">Cystus Ⅱ在世界观和剧情上分别做了什么</h3>
+<h2 id="cystus-ii在世界观和剧情上分别做了什么">Cystus Ⅱ在世界观和剧情上分别做了什么</h2>
 <p>世界观：未来世界，现实与网络深度交融，<strong>整个游戏的内容都是巨型精神网络空间cyTus中的一次狂欢</strong><br>
 剧情：进入游戏后，其<strong>模块以人物划分</strong>，人物可升级（借鉴了卡牌游戏？），人物有自己的剧情故事，同一人物下有不同的歌曲（<em>这些歌曲就是他们的悲欢喜乐吗？</em>）<br>
 整体来说，Cystus Ⅱ对世界观的刻画更为令人印象深刻，剧情系统的曝光度不是很高，这可能和雷亚公司的布局有关，Cystus Ⅱ还是更倾向于传统音游风格，而侧重剧情的留给Deemo系列去做。</p>
-<h3 id="ui界面">UI界面</h3>
+<h2 id="ui界面">UI界面</h2>
 <p>浓厚的科技风：黑白灰的主色调+较淡的冷色调（色调深浅形成层次感）+点、线条、矩形、立方体的轮廓构造（逻辑感）+程序风的过场动画和装饰配件<br>
 <em>👇科技风格</em><br>
 <img src="https://ParchingSun.github.io/post-images/1605716631527.jpg" alt="" loading="lazy"><br>
@@ -222,6 +222,61 @@ actions: 对events的具体表述（or结果），例如何时生、何时变、
 ]]></content>
     </entry>
     <entry>
+        <title type="html"><![CDATA[【游戏基础知识】11.18]]></title>
+        <id>https://ParchingSun.github.io/post/you-xi-ji-chu-zhi-shi-1118/</id>
+        <link href="https://ParchingSun.github.io/post/you-xi-ji-chu-zhi-shi-1118/">
+        </link>
+        <updated>2020-11-11T13:09:59.000Z</updated>
+        <content type="html"><![CDATA[<h3 id="世界观和剧情的表现方式">世界观和剧情的表现方式</h3>
+<ul>
+<li>用场景表现剧情：场景设计要有故事性、有延伸感</li>
+</ul>
+<h3 id="如何做一个有魅力的角色">如何做一个有魅力的角色？</h3>
+<h4 id="制作顺序">制作顺序</h4>
+<ol>
+<li>身份</li>
+<li>连外形内的标签，有化学反应</li>
+<li>设定性格复杂度</li>
+<li>补充细节</li>
+<li>补充台词</li>
+<li>补充背景、成长环境、家庭环境</li>
+<li>补充小传，当下的故事</li>
+<li>人物关系<br>
+5678同时进行相互校正</li>
+</ol>
+<h3 id="设计角度">设计角度</h3>
+<ol>
+<li>性格复杂度<br>
+1）复杂度1：角色的身份/高度<br>
+身份包括世界观身份和功能身份（法师/战士/远程）<br>
+高度简单来说就是大人物还是小人物，具体可以细化到不同领域<br>
+2）复杂度2：标签、特点<br>
+外形与身份的关联与化学反应（如反差）<br>
+鲜明的第一印象，配饰、配色赋予一定的想象空间<br>
+3）复杂度3：性格<br>
+主性格：绝大多数时间内的性格<br>
+附属性格：特定场景下的表现<br>
+深层性格：重要决策时主导选择的性格<br>
+结合身份的性格反差<br>
+4）复杂度4：缺点</li>
+<li>刺激荷尔蒙</li>
+<li>超我意识：信念、使命、愿景<br>
+要击中价值观趋同的玩家</li>
+<li>突破玩家认知<br>
+1）身份和性格的反差<br>
+2）打破现有边界（道德、实力）<br>
+3）强烈反差</li>
+<li>和玩家的认知连接<br>
+不光自已要找原型，也要能够让玩家找到原型</li>
+<li>与玩家的情感共鸣<br>
+1）相似的伤痕和经历<br>
+2）身份的认同感<br>
+3）价值观的认同感</li>
+<li>凝练标签</li>
+</ol>
+]]></content>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[【游戏基础知识】11.10]]></title>
         <id>https://ParchingSun.github.io/post/you-xi-ji-chu-zhi-shi-1110/</id>
         <link href="https://ParchingSun.github.io/post/you-xi-ji-chu-zhi-shi-1110/">
@@ -316,6 +371,24 @@ actions: 对events的具体表述（or结果），例如何时生、何时变、
 ]]></content>
     </entry>
     <entry>
+        <title type="html"><![CDATA[【无尽的生活】]]></title>
+        <id>https://ParchingSun.github.io/post/wu-jin-de-sheng-huo/</id>
+        <link href="https://ParchingSun.github.io/post/wu-jin-de-sheng-huo/">
+        </link>
+        <updated>2020-11-10T06:45:51.000Z</updated>
+        <content type="html"><![CDATA[<h3 id="黑皮肤配啥衣服上衣">黑皮肤配啥衣服（上衣）</h3>
+<p>-No：荧光色（特亮的）、佛系色（棕、褐）<br>
+-Yes：黑白灰、冷色系、饱和度低</p>
+<ol>
+<li>白色（干净阳光，+格子元素）</li>
+<li>灰色（内敛，深灰浅灰）</li>
+<li>藏蓝/青（沉稳）</li>
+<li>军绿（硬汉，+工装）</li>
+<li>酒红</li>
+</ol>
+]]></content>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[《万象物语》反推（一）]]></title>
         <id>https://ParchingSun.github.io/post/wan-xiang-wu-yu-zai-tan/</id>
         <link href="https://ParchingSun.github.io/post/wan-xiang-wu-yu-zai-tan/">
@@ -364,76 +437,6 @@ actions: 对events的具体表述（or结果），例如何时生、何时变、
 <li>你如何从训练自己架构世界观的能力？</li>
 <li>如何评价对抗性强/弱的游戏？</li>
 <li><strong>巫师3中哪些点让你印象深刻？</strong></li>
-</ul>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[游戏《万象物语》初体验]]></title>
-        <id>https://ParchingSun.github.io/post/wan-xiang-wu-yu/</id>
-        <link href="https://ParchingSun.github.io/post/wan-xiang-wu-yu/">
-        </link>
-        <updated>2020-11-04T13:40:30.000Z</updated>
-        <content type="html"><![CDATA[<h3 id="基本资源">基本资源</h3>
-<p>库伦：基本货币<br>
-魂晶碎片：高阶货币，可发挥部分透晶石的作用<br>
-透晶石：现实货币，最主要的用途是赋魂（抽卡）<br>
-魂能：用来升级人物</p>
-<h3 id="基本玩法">基本玩法</h3>
-<p>回合制格斗 剧情 养成<br>
-<img src="https://ParchingSun.github.io/post-images/1604498856697.jpg" alt="" loading="lazy"><br>
-白、黄、紫代表不同人物，滑屏连接同类型颜色可以发动不同的技能（目前已知的连接方式只有横2/竖2和斜向4），连接的颜色球会消失，右侧颜色球向左自动填补；左侧圆圈内为参谋技，右侧圆圈内为宝箱内掉落的技能。<br>
-本质上是<strong>俄罗斯方块和横向格斗游戏玩法的融合</strong>，使得游戏获得了一定的策略性。</p>
-<h3 id="美术风格">美术风格</h3>
-<p>奇幻、二次元和卡通三种风格并行。在人物立绘、场景绘制、界面美工上都有<strong>奇幻的风格，冷色调较多，重结构轻细节</strong>；但有部分人物又更靠近二次元一些；在剧情和战斗界面则是卡通可爱风的人物模型。<br>
-<em>图为充满东方奇幻风格的新手引导里的小姐姐，神秘感Max~</em><br>
-<img src="https://ParchingSun.github.io/post-images/1604499690142.png" alt="" loading="lazy"><br>
-<em>图为主线剧情的主角太阳王国公主安洁莉娅，有没有感受到浓浓的二次元风</em><br>
-<img src="https://ParchingSun.github.io/post-images/1604499793392.jpg" alt="" loading="lazy"><br>
-<em>图为剧情内人物模型，立绘里有多美，剧情内就有多可爱</em><br>
-<img src="https://ParchingSun.github.io/post-images/1604499921213.jpg" alt="" loading="lazy"></p>
-<h3 id="新手引导亮点">新手引导亮点</h3>
-<ol>
-<li>新奇的战斗</li>
-<li>活泼的剧情<br>
-采用表情符号+文字的文本格式，让人物的语气神态更容易被玩家意会<br>
-<em>无语的娜雅和可爱的小魔物</em><br>
-<img src="https://ParchingSun.github.io/post-images/1604500451666.png" alt="" loading="lazy"></li>
-<li>鲜活的人物，文案人员通过细节刻画人物的功力很足，目前接触到的人物个个都很有特色，还没有见到大众脸：对一切都充满好奇和热情的蒂卡、充满荣誉感的王国治安官娜雅、沉稳有礼的庞、天真理想的安洁公主、外表厉色内心憨厚的刃<br>
-<em>庞言必称“在下”、“阁下”，娜雅常常提到其王国治安官的身份，刃在面对胡闹的安洁时的那句“八嘎”简直不要太有爱</em></li>
-</ol>
-<p><strong>END</strong></p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[【游戏基础知识】11.3]]></title>
-        <id>https://ParchingSun.github.io/post/youxizhishi/</id>
-        <link href="https://ParchingSun.github.io/post/youxizhishi/">
-        </link>
-        <updated>2020-11-03T15:24:18.000Z</updated>
-        <content type="html"><![CDATA[<h3 id="基本数语">基本“数”语</h3>
-<p>PUR 付费渗透率=付费用户数/活跃用<br>
-户数<br>
-ARPPU 每付费用户收益=付费总额/付费用户数<br>
-ARPU 每用户收益</p>
-<h3 id="专业名词">专业名词</h3>
-<p>厚涂漫画风<br>
-深坑<br>
-家园系统<br>
-步长<br>
-囤货</p>
-<h3 id="专业规范">专业规范</h3>
-<ul>
-<li>资源循环的表示既可以用viso流程图，也可以用产出-消耗表（p.s.能否尝试用经济学投入-产出表？）</li>
-</ul>
-<h3 id="最强蜗牛亮点">最强蜗牛亮点</h3>
-<ul>
-<li>题材画风吸量</li>
-<li>长活动周期（三周一轮），以资源换绑定</li>
-</ul>
-<h3 id="发现">发现</h3>
-<ul>
-<li>资源循环图的终点，就是玩家养成的主要内容</li>
-<li><img src="https://ParchingSun.github.io/post-images/1604419568093.png" alt="" loading="lazy"></li>
 </ul>
 ]]></content>
     </entry>
