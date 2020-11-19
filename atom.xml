@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ParchingSun.github.io</id>
     <title>啪卿领域</title>
-    <updated>2020-11-18T16:45:49.684Z</updated>
+    <updated>2020-11-19T16:23:04.425Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://ParchingSun.github.io"/>
     <link rel="self" href="https://ParchingSun.github.io/atom.xml"/>
@@ -10,6 +10,61 @@
     <logo>https://ParchingSun.github.io/images/avatar.png</logo>
     <icon>https://ParchingSun.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 啪卿领域</rights>
+    <entry>
+        <title type="html"><![CDATA[《映月城与电子姬》初体验]]></title>
+        <id>https://ParchingSun.github.io/post/lesslessying-yue-cheng-yu-dian-zi-ji-greatergreater-chu-ti-yan/</id>
+        <link href="https://ParchingSun.github.io/post/lesslessying-yue-cheng-yu-dian-zi-ji-greatergreater-chu-ti-yan/">
+        </link>
+        <updated>2020-11-19T14:34:51.000Z</updated>
+        <content type="html"><![CDATA[<h3 id="新手引导">新手引导</h3>
+<ol>
+<li>战斗系统（闪避+反闪攻击+属性克制）</li>
+<li>武器系统</li>
+<li>卡牌系统</li>
+<li>人物强化系统</li>
+<li>潘多拉系统</li>
+<li>蓝图系统*1/2</li>
+</ol>
+<h3 id="有趣的点">有趣的点</h3>
+<ol>
+<li>制作人的惊悚悬疑桥段，潘多拉系统→直面国内手游市场的规则</li>
+<li>请假系统→让人耳目一新，也有卖情怀的影子，具体能否增加用户粘性仍待考证</li>
+<li>制作人在游戏内的频繁出现→虚拟和现实交织的感觉，最强蜗牛亦如是</li>
+</ol>
+<h3 id="收获">收获</h3>
+<p>玩家角色、引导者和卡牌的身份代入问题是世界观的重要入口，要做好包装<br>
+具体到我们现在的游戏，就是必须明确玩家是以第一/三人称进入到世界中（需要捋清楚两种人称各自的利弊），小精灵的角色从何而来以及卡牌的包装。<br>
+<strong>第一人称</strong></p>
+<ul>
+<li>能够埋一根长线悬疑（失忆→我是谁？世界为何？）伴随着主线的进展，“我”的身份逐渐揭开，世界也自然而然在“我”眼前被逐渐发现，这其实是一个recover的过程，能为剧情的大反转留下不错的空间。</li>
+<li>代入感（第一人称就更有代入感吗？个人感觉真的未必，从台词选择的角度来看确实有效果，但另一方面来看手游的声光系统营造的代入感很难掩盖包裹着玩家的surroundings，e.g.人在地铁你问我代入感？</li>
+</ul>
+<p><strong>第三人称</strong></p>
+<ul>
+<li>更方便叙事的展开，更易摆脱时空对于叙事的限制，在背景铺垫、多线叙事上都有体现</li>
+<li>在价值判断的问题上玩家能有更超脱、客观的评判角度，也能进行更自由的发挥（主角可以做恶，但引起的却是正向效果，即玩家的反思，但第一人称下玩家是不会接受“自己”作恶的剧情）</li>
+</ul>
+<h3 id="缺点">缺点</h3>
+<ol>
+<li>资源消耗界面没有直观显示资源现有量</li>
+<li>通过邮件的方式展示剧情or设置悬疑真的很难让人快速get到点</li>
+</ol>
+<h3 id="评分temp">评分（Temp）</h3>
+<p><strong>世界观和剧情</strong>⭐⭐<br>
+常见的未来题材，故事主要围绕被病毒感染的仿生人展开，暂时来看人物刻画、思想深度都没有让我感到印象深刻</p>
+<p><strong>立绘</strong>⭐⭐<br>
+怎么说的，感觉到有在尽力模仿那个游戏，但那是人家的看家本领啊喂……对比下来你这儿的立绘就好丑啊</p>
+<p><strong>战斗</strong>⭐⭐⭐</p>
+<ol>
+<li>卡通人物2D射击令人耳目一新，既涉及射击的主题，又比刺激战场等更加轻量化，以及降低了操作性，值得一个好评，总之选择这个玩法作为突围点是很ok的</li>
+<li>抄过来一个编队，但是人物不能同时作战，葫芦娃救爷爷也太惨了吧哈哈哈，编队的意义何在</li>
+<li>策略性低、操作空间小，再强的boss靠走位+反击就能干掉，中后期可能会无法给玩家提供成就感</li>
+</ol>
+<p><strong>UI</strong>⭐<br>
+我相信以其他界面的设计水准，充值界面不至于搞成这样，那么故意做成页游风格是在恶心谁？</p>
+<p><strong>END</strong></p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[《Cystus Ⅱ》初体验]]></title>
         <id>https://ParchingSun.github.io/post/Cytus 2-frist impression/</id>
@@ -408,25 +463,6 @@ UI（User Interface)<br>
 1.第一人称，只能单条线路叙事，对其他线路的了解依赖于消息来源<br>
 2.第三人称，可以多条线路同时叙事<br>
 -沟通问题：如何让别人快速地阅读和get到你的文档和表</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[《万象物语》反推（一）]]></title>
-        <id>https://ParchingSun.github.io/post/wan-xiang-wu-yu-zai-tan/</id>
-        <link href="https://ParchingSun.github.io/post/wan-xiang-wu-yu-zai-tan/">
-        </link>
-        <updated>2020-11-08T14:31:40.000Z</updated>
-        <content type="html"><![CDATA[<h3 id="英雄等级资源表">英雄等级资源表</h3>
-<p><em>克拉克</em><br>
-<img src="https://ParchingSun.github.io/post-images/1604847762266.png" alt="" loading="lazy"><br>
-**所有英雄的攻击和血量都是以平均每级提高6%的幅度增长，而相同等级升级所需的魂能则完全一样。**魂能需求在30级升31级别时候增幅最为显著，而此时所对应的主线剧情则是第四章末，显然，这种突变显然是雷亚有意而为。以玩家每天玩0.5-1小时算，升到30级需要1-2周，前两周资源的高度充沛（新手任务）和小幅消耗能够维持较好的留存率。而30级以后逐渐步入中期，资源产出逐渐放缓，而消耗加剧。一个英雄升到50级共需172k的魂能，升到30级只需要15.4k，占比仅有9%，30级到50级别的魂能高达157k，不氪金的话玩家凑够157k魂能可能需要1-2周。资源产出和消耗的“剪刀差”模型十分显著。<br>
-<em>剪刀差模型</em><br>
-<img src="https://ParchingSun.github.io/post-images/1604859173194.jpg" alt="" loading="lazy"></p>
-<h3 id="资源循环图">资源循环图</h3>
-<p><img src="https://ParchingSun.github.io/post-images/1604856250896.jpg" alt="" loading="lazy"><br>
-从图中可以看出，从资源角度来说，绝大部分资源都有丰富的产出路径，从系统来说，每个系统都能产出多样化的资源。这种设定的结果就是<strong>游戏进行所需要的资源大部分都能从游戏产出，而并不依赖外部产出（氪金）</strong>，问题只在于内部产出效率决定的发展时长。因此这款游戏并不氪。<br>
-**商店里存在着资源之间相互转化的机制。**一级资源魂晶碎片、透晶石和魂光粉尘必须依赖内外产出，且可转化为其他的二级资源。<br>
-**魂光粉尘是制约资源循环和发展速度的关键资源。**此资源只能从每周结算的活动排名中产出，决定着每天能够进行的其他活动和挑战次数，等于扼住了资源产出的大半壁江山（主线和探索的产出不足以维持快速发展），中期尤为明显，因为中期开始主线产出降低，而探索的产出尚未成熟。</p>
 ]]></content>
     </entry>
 </feed>
