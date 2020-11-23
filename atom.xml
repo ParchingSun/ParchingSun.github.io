@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ParchingSun.github.io</id>
     <title>啪卿领域</title>
-    <updated>2020-11-20T16:39:29.029Z</updated>
+    <updated>2020-11-23T16:31:28.217Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://ParchingSun.github.io"/>
     <link rel="self" href="https://ParchingSun.github.io/atom.xml"/>
@@ -10,6 +10,27 @@
     <logo>https://ParchingSun.github.io/images/avatar.png</logo>
     <icon>https://ParchingSun.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 啪卿领域</rights>
+    <entry>
+        <title type="html"><![CDATA[【GMS笔记】11.23]]></title>
+        <id>https://ParchingSun.github.io/post/gms-bi-ji-1123/</id>
+        <link href="https://ParchingSun.github.io/post/gms-bi-ji-1123/">
+        </link>
+        <updated>2020-11-23T14:42:30.000Z</updated>
+        <content type="html"><![CDATA[<ol>
+<li><strong>sprite的origin实际上就是sprite的本质点</strong>，以👇下图为例，如果origin是（0，0）点，那么当ship旋转是，就是以（0，0）为中心旋转，若origin是（16，16）点，旋转中心点就是（16，16）。action_create instances时，产生的Instance如果使用（0，0）坐标且勾选relative，那么也是以origin点为原点。<br>
+<img src="https://ParchingSun.github.io/post-images/1606142959744.png" alt="" loading="lazy"><br>
+<img src="https://ParchingSun.github.io/post-images/1606144179057.gif" alt="" loading="lazy"><br>
+<img src="https://ParchingSun.github.io/post-images/1606144184996.gif" alt="" loading="lazy"></li>
+<li>可以设置camera去捕捉game room的一部分区域，以及设置viewport去展示camera捕捉到的画面。viewport决定了游戏窗口的大小。</li>
+<li>frames = steps，一帧等于一步，step event实际上就是规定游戏每帧发生的事件，是定义核心逻辑的绝佳场所</li>
+<li>create事件仅仅当object产生时运行一次，是定义变量、执行仅需一次的行动的场所</li>
+<li>所有的functions都有特定的作用，但只有部分会return a  value。例如keyboard_check返回1/0; <strong>instance_create返回一个ID</strong>；但move_wrap不返回值。</li>
+<li>当object被摧毁后，附在其上的所有变量都会删除。</li>
+<li>今日成果：平面移动；create instance ; collision<br>
+<img src="https://ParchingSun.github.io/post-images/1606149001370.gif" alt="" loading="lazy"></li>
+</ol>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[【Python学习】11.20]]></title>
         <id>https://ParchingSun.github.io/post/python-1/</id>
@@ -457,24 +478,6 @@ actions: 对events的具体表述（or结果），例如何时生、何时变、
 <li>逻辑线：汉娜的妹妹谋杀了汉娜</li>
 <li>反转线：尼伦是狼人；汉娜妹妹本意不过是想吓吓汉娜，且又是为情用计，情有可原</li>
 <li>技巧：汉娜的痴、尼伦的哀刻画的很好，而为情误杀也能模糊善恶界限，且有情人不成眷属也映照了现实世界中的遗憾，让玩家想到自身</li>
-</ol>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[【无尽的生活】]]></title>
-        <id>https://ParchingSun.github.io/post/wu-jin-de-sheng-huo/</id>
-        <link href="https://ParchingSun.github.io/post/wu-jin-de-sheng-huo/">
-        </link>
-        <updated>2020-11-10T06:45:51.000Z</updated>
-        <content type="html"><![CDATA[<h3 id="黑皮肤配啥衣服上衣">黑皮肤配啥衣服（上衣）</h3>
-<p>-No：荧光色（特亮的）、佛系色（棕、褐）<br>
--Yes：黑白灰、冷色系、饱和度低</p>
-<ol>
-<li>白色（干净阳光，+格子元素）</li>
-<li>灰色（内敛，深灰浅灰）</li>
-<li>藏蓝/青（沉稳）</li>
-<li>军绿（硬汉，+工装）</li>
-<li>酒红</li>
 </ol>
 ]]></content>
     </entry>

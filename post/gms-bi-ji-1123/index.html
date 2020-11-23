@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" >
 
-<title>【Python学习】11.20 | 啪卿领域</title>
+<title>【GMS笔记】11.23 | 啪卿领域</title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
@@ -19,14 +19,7 @@
 
 
     <meta name="description" content="
-beautiful soup 4 install
-
-杂项
-
-
-urllib.request.urlopen()函数用于实现对目标url的访问
-调用方法：from urllib.request import urlopen
-交互式编程（→无..." />
+sprite的origin实际上就是sprite的本质点，以👇下图为例，如果origin是（0，0）点，那么当ship旋转是，就是以（0，0）为中心旋转，若origin是（16，16）点，旋转中心点就是（16，16）。action_cr..." />
     <meta name="keywords" content="语言学习" />
   </head>
   <body>
@@ -98,37 +91,23 @@ urllib.request.urlopen()函数用于实现对目标url的访问
       <div class="main-container">
         <div class="content-container" data-aos="fade-up">
           <div class="post-detail">
-            <h2 class="post-title">【Python学习】11.20</h2>
-            <div class="post-date">2020-11-20</div>
+            <h2 class="post-title">【GMS笔记】11.23</h2>
+            <div class="post-date">2020-11-23</div>
             
             <div class="post-content" v-pre>
-              <ul>
-<li>beautiful soup 4 install<br>
-<img src="https://ParchingSun.github.io/post-images/1605878285584.png" alt="" loading="lazy"></li>
-<li>杂项</li>
-</ul>
-<ol>
-<li>urllib.request.urlopen()函数用于实现对目标url的访问<br>
-调用方法：from urllib.request import urlopen</li>
-<li>交互式编程（→无需创建脚本文件）、脚本式编程</li>
-<li>保留字符<br>
-<img src="https://ParchingSun.github.io/post-images/1605881975098.png" alt="" loading="lazy"></li>
-<li>python的代码块不用{}来控制类、函数以及其他逻辑判断，而用缩进来写模块，缩进相同的一组语句构成一个代码块，亦称代码组。使用tap键快速缩进。</li>
-<li>使用\来将一行语句分为多行显示</li>
-<li>引号、双引号和三引号都可以用来表示字符串</li>
-<li>#为单行注释开头，三引号可用作多行注释</li>
-<li>同一行中的多条语句可以用；分割</li>
-<li>python对数字和字符串的运算</li>
-<li>if、for和range语句<br>
-<em>👇if语句示例</em><br>
-<img src="https://ParchingSun.github.io/post-images/1605889777526.png" alt="" loading="lazy"><br>
-<em>👇for语句和range语句的理解</em><br>
-<em>下图中通过尝试输出text字母序号和字母本身的矩阵来校正对两种语句的理解</em><br>
-<img src="https://ParchingSun.github.io/post-images/1605889707845.png" alt="" loading="lazy"><br>
-<em>👇在尝试多次后，成功实现预期效果</em><br>
-<img src="https://ParchingSun.github.io/post-images/1605889786143.png" alt="" loading="lazy"></li>
+              <ol>
+<li><strong>sprite的origin实际上就是sprite的本质点</strong>，以👇下图为例，如果origin是（0，0）点，那么当ship旋转是，就是以（0，0）为中心旋转，若origin是（16，16）点，旋转中心点就是（16，16）。action_create instances时，产生的Instance如果使用（0，0）坐标且勾选relative，那么也是以origin点为原点。<br>
+<img src="https://ParchingSun.github.io/post-images/1606142959744.png" alt="" loading="lazy"><br>
+<img src="https://ParchingSun.github.io/post-images/1606144179057.gif" alt="" loading="lazy"><br>
+<img src="https://ParchingSun.github.io/post-images/1606144184996.gif" alt="" loading="lazy"></li>
+<li>可以设置camera去捕捉game room的一部分区域，以及设置viewport去展示camera捕捉到的画面。viewport决定了游戏窗口的大小。</li>
+<li>frames = steps，一帧等于一步，step event实际上就是规定游戏每帧发生的事件，是定义核心逻辑的绝佳场所</li>
+<li>create事件仅仅当object产生时运行一次，是定义变量、执行仅需一次的行动的场所</li>
+<li>所有的functions都有特定的作用，但只有部分会return a  value。例如keyboard_check返回1/0; <strong>instance_create返回一个ID</strong>；但move_wrap不返回值。</li>
+<li>当object被摧毁后，附在其上的所有变量都会删除。</li>
+<li>今日成果：平面移动；create instance ; collision<br>
+<img src="https://ParchingSun.github.io/post-images/1606149001370.gif" alt="" loading="lazy"></li>
 </ol>
-<p><strong>END</strong></p>
 
             </div>
             
@@ -143,9 +122,9 @@ urllib.request.urlopen()函数用于实现对目标url的访问
             
               <div class="next-post">
                 <div class="next">下一篇</div>
-                <a href="https://ParchingSun.github.io/post/Ying-yue-cheng-1/">
+                <a href="https://ParchingSun.github.io/post/python-1/">
                   <h3 class="post-title">
-                    《映月城与电子姬》初体验
+                    【Python学习】11.20
                   </h3>
                 </a>
               </div>
