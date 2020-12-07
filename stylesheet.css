@@ -1,5 +1,11 @@
-
-
+@font-face{
+	font-family:kangxi;
+	src: url("fonts/kangxidictionary_font.otf");
+}
+/*改变鼠标样式*/
+.resize {
+	cursor: zoom-in;
+}
 /*设置普遍格式：内边距，字体*/
 body {
 	padding-left: 2.5%;
@@ -7,6 +13,7 @@ body {
 	padding-top: 2.5%;
 	font-size: 22px;
 	color: black;
+	font-family: STSong;
 }
 
 .artical {
@@ -39,6 +46,7 @@ abbr {
 	padding-right: 50%;
 	text-indent: 2em;
 	line-height: 1.5;
+	font-family: STXihei, STSong;
 }
 
 /*设置每页索引格式*/
@@ -75,7 +83,311 @@ video {
 video.last {
 	padding-left: 2em;
 }
-video.float: {
-	float: left;
+video.float {
+	float: left
+}
 
+.background_words{
+	opacity: 0.05;
+	position: absolute;
+	font-family: kangxi;
+	font-size: 4rem;
+	top: 0px;
+
+	transition-property: transform;
+	transition-duration: 0.5;
+}
+
+
+
+
+#jun {
+	display: inline-block;
+	transition-property: transform, transform;
+	transition-duration: 0.4s;
+}
+#jun:hover {
+	transform: scale(1.5);
+	transform: opacity(1);
+}
+
+#zi {
+	display: inline-block;
+	transition-property: transform, transform;
+	transition-duration: 0.4s;
+}
+#zi:hover {
+	transform: scale(1.5);
+	transform: opacity(1);
+}
+
+#yue {
+	display: inline-block;
+	transition-property: transform, transform;
+	transition-duration: 0.4s;
+}
+#yue:hover {
+	transform: scale(1.5);
+	transform: opacity(1);
+}
+
+#bu {
+	display: inline-block;
+	transition-property: transform, transform;
+	transition-duration: 0.4s;
+}
+#bu:hover {
+	transform: scale(1.5);
+	transform: opacity(1);
+}
+#yi {
+	display: inline-block;
+	transition-property: transform, transform;
+	transition-duration: 0.4s;
+}
+#yi:hover {
+	transform: scale(1.5);
+	transform: opacity(1);
+}
+#qing {
+	display: inline-block;
+	transition-property: transform, transform;
+	transition-duration: 0.4s;
+}
+#qing:hover {
+	transform: scale(1.5);
+	transform: opacity(1);
+}
+#qu {
+	display: inline-block;
+	transition-property: transform, transform;
+	transition-duration: 0.4s;
+}
+#qu:hover {
+	transform: scale(1.5);
+	transform: opacity(1);
+}
+#zhi {
+	display: inline-block;
+	transition-property: transform, transform;
+	transition-duration: 0.4s;
+}
+#zhi:hover {
+	transform: scale(1.5);
+	transform: opacity(1);
+}
+#yu {
+	display: inline-block;
+	transition-property: transform, transform;
+	transition-duration: 0.4s;
+}
+#yu:hover {
+	transform: scale(1.5);
+	transform: opacity(1);
+}
+#er {
+	display: inline-block;
+	transition-property: transform, transform;
+	transition-duration: 0.4s;
+}
+#er:hover {
+	transform: scale(1.5);
+	transform: opacity(1);
+}
+#bing {
+	display: inline-block;
+	transition-property: transform, transform;
+	transition-duration: 0.4s;
+}
+#bing:hover {
+	transform: scale(1.5);
+	transform: opacity(1);
+}
+#shui {
+	display: inline-block;
+	transition-property: transform, transform;
+	transition-duration: 0.4s;
+}
+#shui:hover {
+	transform: scale(1.5);
+	transform: opacity(1);
+}
+#han {
+	display: inline-block;
+	transition-property: transform, transform;
+	transition-duration: 0.4s;
+}
+#han:hover {
+	transform: scale(1.5);
+	transform: opacity(1);
+}
+#yu2 {
+	display: inline-block;
+	transition-property: transform, transform;
+	transition-duration: 0.4s;
+}
+#yu2:hover {
+	transform: scale(1.5);
+	transform: opacity(1);
+}
+#shui2 {
+	display: inline-block;
+	transition-property: transform, transform;
+	transition-duration: 0.4s;
+}
+#shui2:hover {
+	transform: scale(1.5);
+	transform: opacity(1);
+}
+#tu {
+	display: inline-block;
+	transition-property: transform, transform;
+	transition-duration: 0.4s;
+}
+#tu:hover {
+	transform: scale(1.5);
+	transform: opacity(1);
+}
+#cheng {
+	display: inline-block;
+	transition-property: transform, transform;
+	transition-duration: 0.4s;
+}
+#cheng:hover {
+	transform: scale(1.5);
+	transform: opacity(1);
+}
+#shan {
+	display: inline-block;
+	transition-property: transform, transform;
+	transition-duration: 0.4s;
+}
+#shan:hover {
+	transform: scale(1.5);
+	transform: opacity(1);
+}
+#yu3 {
+	display: inline-block;
+	transition-property: transform, transform;
+	transition-duration: 0.4s;
+}
+#yu3:hover {
+	transform: scale(1.5);
+	transform: opacity(1);
+}
+#yan {
+	display: inline-block;
+	transition-property: transform, transform;
+	transition-duration: 0.4s;
+}
+#yan:hover {
+	transform: scale(1.5);
+	transform: opacity(1);
+}
+#shui3 {
+	display: inline-block;
+	transition-property: transform, transform;
+	transition-duration: 0.4s;
+}
+#shui3:hover {
+	transform: scale(1.5);
+	transform: opacity(1);
+}
+#cheng2 {
+	display: inline-block;
+	transition-property: transform, transform;
+	transition-duration: 0.4s;
+}
+#cheng2:hover {
+	transform: scale(1.5);
+	transform: opacity(1);
+}
+#jiao {
+	display: inline-block;
+	transition-property: transform, transform;
+	transition-duration: 0.4s;
+}
+#jiao:hover {
+	transform: scale(1.5);
+	transform: opacity(1);
+}
+#sheng {
+	display: inline-block;
+	transition-property: transform, transform;
+	transition-duration: 0.4s;
+}
+#sheng:hover {
+	transform: scale(1.5);
+	transform: opacity(1);
+}
+#yan2 {
+	display: inline-block;
+	transition-property: transform, transform;
+	transition-duration: 0.4s;
+}
+#yan2:hover {
+	transform: scale(1.5);
+	transform: opacity(1);
+}
+#bu2 {
+	display: inline-block;
+	transition-property: transform, transform;
+	transition-duration: 0.4s;
+}
+#bu2:hover {
+	transform: scale(1.5);
+	transform: opacity(1);
+}
+#qian {
+	display: inline-block;
+	transition-property: transform, transform;
+	transition-duration: 0.4s;
+}
+#qian:hover {
+	transform: scale(1.5);
+	transform: opacity(1);
+}
+#li {
+	display: inline-block;
+	transition-property: transform, transform;
+	transition-duration: 0.4s;
+}
+#li:hover {
+	transform: scale(1.5);
+	transform: opacity(1);
+}
+#xiao {
+	display: inline-block;
+	transition-property: transform, transform;
+	transition-duration: 0.4s;
+}
+#xiao:hover {
+	transform: scale(1.5);
+	transform: opacity(1);
+}
+#liu {
+	display: inline-block;
+	transition-property: transform, transform;
+	transition-duration: 0.4s;
+}
+#liu:hover {
+	transform: scale(1.5);
+	transform: opacity(1);
+}
+#jiang {
+	display: inline-block;
+	transition-property: transform, transform;
+	transition-duration: 0.4s;
+}
+#jiang:hover {
+	transform: scale(1.5);
+	transform: opacity(1);
+}
+#hai {
+	display: inline-block;
+	transition-property: transform, transform;
+	transition-duration: 0.4s;
+}
+#hai:hover {
+	transform: opacity(1);
 }
