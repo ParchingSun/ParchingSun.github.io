@@ -1,0 +1,80 @@
+/*设置普遍格式：内边距，字体*/
+body {
+	padding-left: 2.5%;
+	padding-right: 2.5%;
+	padding-top: 2.5%;
+	font-size: 22px;
+	color: black;
+	font-family: STSong;
+}
+
+.artical {
+	font-size: 18px;
+	padding-left: 10em;
+	padding-right: 15em;
+	padding-top: 10em;
+	line-height: 1.5;
+}
+
+/*链接*/
+a {
+	text-decoration: none;
+	color: #339933;
+}
+
+/*返回上层链接*/
+a.back {
+	line-height: 2.5;
+}
+
+/*小彩蛋*/
+abbr {
+	text-decoration: none;
+}
+
+
+/*设置每页简介段落格式*/
+.shortpara {
+	padding-right: 50%;
+	text-indent: 2em;
+	line-height: 1.5;
+	font-family: STXihei, STSong;
+}
+
+/*设置每页索引格式*/
+div.index li {
+	line-height: 1.8;
+}
+div.artical li, dd {
+	line-height: 1.5;
+}
+
+ol, ul, dl {
+	padding-top: 1px;
+	padding-bottom: -0.5em;
+}
+div.content > p {
+	padding-left: 1em;
+}
+img {
+	padding-left: 2em;
+}
+img.float {
+	float: left;
+	padding-bottom: 10px;
+}
+h4, li {
+	clear: both;
+}
+
+video {
+	position: relative;
+	left: 4em;
+}
+
+video.last {
+	padding-left: 2em;
+}
+video.float {
+	float: left
+}
