@@ -1,0 +1,49 @@
+/*设定笔记部分格式*/
+html, body {
+    padding: 0;
+    margin: 0;
+    background-color:white;
+}
+.notes {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    margin-left: 3%;
+    max-width: 1300px;
+    letter-spacing: 0.03rem;
+    line-height: 2.2rem;
+}
+
+/*设定关键字格式*/
+.syntax {
+    background-color: rgb(186, 214, 129);
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+.example {
+    font-style: italic;
+    font-size: 18px;
+}
+
+.keyword {
+    font-weight: bold;
+    background-color: yellow;
+}
+
+/*设定表格格式*/
+table {
+    width: auto;
+    margin-left: 2rem;
+    text-align: left;
+    border-collapse: collapse;
+}
+td,th {
+    border: 1px solid black;
+    padding: 0.3em;
+}
+tr:hover {
+    background-color: rgb(185, 56, 56);
+}
+td.center, th {
+    text-align: center;
+}
