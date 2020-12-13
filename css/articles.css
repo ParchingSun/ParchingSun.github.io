@@ -18,7 +18,8 @@ h2, h3, h4
 {
     margin-top: 15px;
     text-align: left;
-    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 25px;
 }
 img
 {
@@ -29,6 +30,18 @@ img
 a
 {
     color: black;
+}
+.para
+{
+    text-align: left;
+    line-height: 2em;
+}
+.comment
+{
+    text-align: left;
+    font-size: 13px;
+    line-height: 1.5em;
+    padding-top: 3em;
 }
 .content
 {
