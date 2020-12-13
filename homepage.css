@@ -1,9 +1,9 @@
-@font-face{
+@font-face
+{
     font-family: gudianminchao;
-    src: url(fonts/gudianmingchao_font.otf);
+    src: url("fonts/gudianmingchao_font.ttf");
 }
-@import 
-url('http://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
 /*设置普遍格式：内边距，字体*/
 body {
 	padding-left: 2.5%;
@@ -78,7 +78,7 @@ ul li a::before
 {
     content: attr(data-title);
     position: absolute;
-    font-family: 'Russo One', sans-serif;
+    font-family:'Russo One', serif;
     z-index: -1;
     font-size: 4rem;
     top: 0;
