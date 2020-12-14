@@ -49,6 +49,18 @@ a
     width: 600px;
     text-align: center;
 }
+.rightbar
+{
+    width: 600px;
+    position: relative;
+    left: 600px;
+    background-color: antiquewhite;
+}
+.comments
+{
+    position: relative;
+    max-width: 500px;
+}
 section.background {
     position: absolute;
     width: 100%;
