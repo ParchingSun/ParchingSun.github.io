@@ -6,7 +6,7 @@ html, body {
     
 }
 .notes {
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;;
+    font-family: 'Bitter', serif;
     font-size: 21px;
     margin-left: 3%;
     max-width: 1300px;
@@ -16,7 +16,7 @@ html, body {
 
 /*设定关键字格式*/
 .syntax {
-    background-color: rgb(186, 214, 129);
+    background-color: rgb(1, 2, 1);
     font-family: 'Times New Roman', Times, serif;
     font-style: italic;
 }
@@ -55,7 +55,7 @@ img
 span.code
 {
     display: block;
-    width: 500px;
+    width: 600px;
     padding: 15px;
     font-family: 'Courier New', Courier, monospace;
     font-size: 1rem;

@@ -691,8 +691,85 @@
 				var realFriends = myPets[0].friends[1];<br/>
 			</span>
 		</p>
-		<p>28.
-			
+		<p>28.While loop statement:<br/>
+			<span class="code">
+				var myArray = [];<br/>
+				var i = 0;<br/>
+				while(i < 5) {<br/>
+					&#12288myArray.push(i);<br/>
+					&#12288i++;<br/>
+				}<br/>
+			</span>
+		</p>
+		<p>29.For loop statement:<br/>
+			<span class="code">
+				var myArray = [];<br/>
+				for(var i = 0; i < 5; i++){<br/>
+					&#12288myArray.push(i);<br/>
+				}<br/>
+			</span>
+		</p>
+		<p>30.Nesting for loop:<br/>
+			<span class="code">
+				function multiplyAll(arr){<br/>
+				&#12288var product = 1;<br/>
+				&#12288for (var i = 0; i < arr.length; i++){<br/>
+					&#12288&#12288for (var j = 0; j < arr[i].length; j++){<br/>
+					&#12288&#12288&#12288product *= arr[i][j];<br/>
+					&#12288&#12288}<br/>
+				&#12288}<br/>
+				&#12288return product;<br/>
+				}<br/>
+				var product = multiplyAll([[1,2],[3,4],[5,6,7]]);<br/>
+			</span>
+		</p>
+		<p>31.Do while loop: statement in bracket will do once at least.<br/>
+			<span class="code">
+				var myArray = [];<br/>
+				var i = 10;<br/>
+				do{<br/>
+				&#12288myArray.push(i);<br/>
+				&#12288i++;<br/>
+				}while(i < 5)<br/>
+			</span>
+		</p>
+		<p>32. Create random number:<br/>
+			<span class="code"><br/>
+				//create random number in [0,1):<br/>
+				Math.random()<br/>
+				//create random whole number in [0,99]:<br/>
+				Math.floor(Math.random()*100)<br/>
+				//create random whole number in (a, b):<br/>
+				Math.floor(Math.random() * (b - a +1)) + a;<br/>
+			</span>
+		</p>
+		<p>33.parseInt function: enter string, return interger.<br/>
+			<span class="code">
+				parseInt(string, radix);<br/>
+			</span>
+		</p>
+		<p>34.Ternary statement:<br/>
+			<span class="code">
+				//basic syntax<br/>
+				condition ? statement-if-ture :statement-if-false;<br/>
+				//multiple<br/>
+				num > 0 ? "positive" : num < 0 ? "negative" : "zero"<br/>
+			</span>
+		</p>
+		<p>35.Decalre a read-only variable with const keyword:<br/>
+			<span class="code">
+				const variable-name = values;
+				object.freeze(object-name);
+			</span>
+		</p>
+		<p>36.Use arrow functions to write concise anonymous functions:<br/>
+			<span class="code">
+				var magic = function(){<br/>
+					return new Date();<br/>
+				}<br/>
+				//we can simplize to:<br/>
+				var magic = () => new Date();<br/>
+			</span>
 		</p>
 	</div>
 
