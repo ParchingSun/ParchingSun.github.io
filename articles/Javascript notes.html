@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<title>interactive word background</title>
+<html>
+
+<head>
+
+    <link rel="stylesheet" type="text/css" href="../css/articles.css">
+</head>
+
+<body>
+    <section class="background">
+        <div class="set">
+            <div></div>
+            <div>不</div>
+            <div>积</div>
+            <div>跬</div>
+            <div>步</div>
+            <div>无</div>
+            <div>以</div>
+            <div>至</div>
+            <div>千</div>
+            <div>里</div>
+        </div>
+        <div class="set set2">
+            <div>文</div>
+            <div>学</div>
+            <div>劝</div>
+            <div>荀</div>
+            <div>子</div>
+            <div>文</div>
+            <div>字</div>
+            <div>的</div>
+            <div>力</div>
+            <div>量</div>
+        </div>
+        <div class="set set3">
+            <div>文</div>
+            <div>字</div>
+            <div>的</div>
+            <div>力</div>
+            <div>量</div>
+            <div>文</div>
+            <div>字</div>
+            <div>的</div>
+            <div>力</div>
+            <div>量</div>
+        </div>
+    </section>
+    <section class="content">
+        <h2>JavaScript笔记</h2>
+        <div class="para"><span class="head">1. Use console</span>
+            <span class="code">
+                //log to console for showing output of JavaScript and debugging
+                console.log('hello world');
+                console.log(123);
+                console.log(true);
+                //create a varibile and call it
+                var greeting = 'Hello';
+                console.log(greeting);
+                console.log([1, 2, 3, 4]);
+                //create a table
+                console.table({a:1, b:2});
+                console.error('This is some error');
+                console.clear();
+                console.warn('This is a warning');
+                //get the time of script-running
+                console.time('Hello');
+                console.log('Hello World');
+                console.log('Hello World');
+                console.log('Hello World');
+                console.log('Hello World');
+                console.timeEnd('Hello');
+
+            </span>
+        </div>
+        <div class="para"><span class="head">2. Variable Basic</span>
+            <span class="code">
+                /*Declare name rules: only use letters or underscore _ or dollors $.*/
+                /*Usually, we use camel case just like 'fristName'.*/
+                //Types: var, let, const.
+                /*In format, var and let is similar, while const is unique. The following is wrong:*/
+                ---------------------------------------
+                const name;
+                name = 'John';
+
+                const name = 'John';
+                name = 'Sara';
+                ---------------------------------------
+                /*const declare constant values that can't be changed and must be assigned value when being declared.*/
+                /*however, property of object and array may cause confuse, the following is ok:*/
+                ---------------------------------------
+                const person = {
+                &#12288name : 'John',
+                &#12288age : 30
+                }
+                person.name ='Sara';
+                person.age = 32;
+                console.log(person);
+                <span class="output">output: { name: 'Sara', age: 32 }</span>
+
+                const numbers = [1, 2, 3, 4, 5];
+                console.log(numbers);
+                numbers.push(6);
+                console.log(numbers);
+                <span class="output">output:
+                    [ 1, 2, 3, 4, 5 ]
+                    [ 1, 2, 3, 4, 5, 6 ]</span>
+                ---------------------------------------
+            </span>
+        </div>
+        <div class="para"></div>
+        <h3><a href="../homepage.html">回到主页</a></h3>
+    </section>
+    <section class="commentbar">
+        <div class="comment"></div>
+    </section>
+
+</body>
+
+</html>

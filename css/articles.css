@@ -3,6 +3,11 @@
     font-family: gudianminchao;
     src: url("../fonts/gudianmingchao_font.ttf");
 }
+@font-face
+{
+    font-family:'HammersmithOne-Regular';
+    src:url("../fonts/HammersmithOne-Regular.ttf");
+}
 *
 {
     margin: 0;
@@ -33,7 +38,7 @@ a
 }
 .para
 {
-    text-align: left;
+    text-align: center;
     line-height: 2em;
     text-indent: 32px;
 }
@@ -42,7 +47,8 @@ a
 {
     position: absolute;
     width: 600px;
-    text-align: center;
+    text-align: left;
+    /* background: chartreuse; */
 }
 .commentbar
 {
@@ -58,6 +64,30 @@ a
     font-size: 13px;
     line-height: 1.5em;
     margin-top: 450px;
+}
+span.head
+{
+    font-family: 'HammersmithOne-Regular', sans-serif;
+    /* padding-left: 300px; */
+    font-size: 20px;
+}
+span.code
+{
+    display: block;
+    white-space: pre-line;
+    width: 550px;
+    margin-left: 40px;
+    padding-left: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    text-align: left;
+    color :rgb(255, 255, 255);
+    background: rgb(34, 32, 32);
+}
+span.output
+{
+    color: rgb(43, 158, 184);
 }
 section.background {
     position: absolute;
