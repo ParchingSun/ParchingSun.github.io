@@ -38,7 +38,7 @@ a
 }
 .para
 {
-    text-align: center;
+    text-align: left;
     line-height: 2em;
     text-indent: 32px;
 }
@@ -88,6 +88,10 @@ span.code
 span.output
 {
     color: rgb(43, 158, 184);
+}
+span.notation
+{
+    color: rgb(162, 162, 81);
 }
 section.background {
     position: absolute;
