@@ -151,14 +151,64 @@
                val = Number(string, boolean, null)
             </span>
         </div>
-        <div class="para"><span class="head"></span>
+        <div class="para"><span class="head">5. Numbers and Math Object</span>
             <span class="code">
-               
+               <span class="notation">//Simple math operater: +, *, -, /, % 
+                   /*Math object: 
+                   &#12288Math.PI
+                   &#12288Math.E
+                   &#12288Math.round()
+                   &#12288Math.ceil()
+                   &#12288Math.floor()
+                   &#12288Math.sqrt()
+                   &#12288Math.abs()
+                   &#12288Math.pow()
+                   &#12288Math.min()
+                   &#12288Math.max()
+                   &#12288Math.random()
+               </span>
             </span>
         </div>
-        <div class="para"><span class="head"></span>
+        <div class="para"><span class="head">6. String methods and Concatenation</span>
             <span class="code">
-               
+                const firstName = 'William';
+                const lastName = 'Johnson';
+                const str = 'Hello there my name is Brad';
+                const tags = 'web design, web development, programming';
+                
+                let val;
+                
+                <span class="notation">//Concatenation</span>
+                val = firstName + ' ' + lastName;
+                <span class="notation">//Append</span>
+                val = 'Hello, my name is ' + firstName + lastName;
+                <span class="notation">//Escaping</span>
+                val = 'That\'s awesome, I can\'t wait';
+                <span class="notation">//Length</span>
+                val = firstName.length;
+                <span class="notation">//concat()</span>
+                val = firstName.concat(' ', lastName);
+                <span class="notation">//Change case</span>
+                val = firstName.toUpperCase();
+                val = firstName[2];
+                <span class="notation">//indexOf()</span>
+                val = firstName.indexOf('l');
+                val = firstName.lastIndexOf('l');
+                <span class="notation">//charAt()</span>
+                val = firstName.charAt('2');
+                val = firstName.charAt(firstName.lengths-1);
+                <span class="notation">//substring</span>
+                val = firstName.substring(0, 4);
+                <span class="notation">//slice()</span>
+                val = firstName.slice(2);
+                <span class="notation">//split()</span>
+                val = str.split(' ');
+                val = tags.split(',');
+                <span class="notation">//replace()</span>
+                val = str.replace('Brad', 'Jack');
+                <span class="notation">//includes()</span>
+                val = str. includes('hello');
+                console.log(val);
             </span>
         </div>
         <div class="para"><span class="head"></span>
