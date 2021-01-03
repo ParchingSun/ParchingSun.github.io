@@ -3,6 +3,11 @@
     font-family: gudianminchao;
     src: url("fonts/gudianmingchao_font.ttf");
 }
+@font-face {
+    font-family: Anton;
+    src: url(https://fonts.googleapis.com/css2?family=Anton&display=swap);
+    unicode-range: U+26-79;
+  }
 
 /*设置普遍格式：内边距，字体*/
 body {
@@ -79,18 +84,18 @@ ul li a::before
 {
     content: attr(data-title);
     position: absolute;
-    font-family:'Russo One', serif;
+    font-family: SimHei;
     z-index: -1;
     font-size: 4rem;
-    top: 0;
+    top: 0px;
     width: 100%;
     height: 100%;
     line-height: 100vh;
     transform: 0.5s;
     opacity: 0;
     color: black;
-    margin-left: 120px;
-    font-style: italic;
+    margin-left: 140px;
+    font-weight: bolder;
 }
 ul li:hover a::before
 {

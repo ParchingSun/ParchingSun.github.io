@@ -1,14 +1,291 @@
 @font-face
 {
-    font-family: tengxiangming;
-    src: url("../fonts/ZiYueSongKeBenJianTi-2.ttf");
+    font-family: gudianminchao;
+    src: url("../fonts/gudianmingchao_font.ttf");
+}
+@font-face
+{
+    font-family:'HammersmithOne-Regular';
+    src:url("../fonts/HammersmithOne-Regular.ttf");
+}
+@font-face
+{
+    font-family: abrilfatface;
+    src: url("../fonts/AbrilFatface-Regular.ttf");
+}
+@font-face
+{
+    font-family: dugulishu;
+    src: url("../fonts/HanBiaoDuGuLiShu-2.ttf");
+}
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+body
+{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+.container
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100vw;
+    transform-style: preserve-3d;
+    /* background: chartreuse; */
+}
+.container .box
+{
+    position: relative;
+    width: 150px;
+    height: 50px;
+    border-radius: 20px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform-style: preserve-3d;
+    /* background: chocolate; */
 }
 
-#myContent{
-    font-family: tengxiangming, sans-serif;
-    font-size: 1rem;
-    /* 不设置行高的话会出现抖动现象 */
-    line-height: 1.2rem;
+.container .box .name
+{
+    font-family: dugulishu;
+    font-size: 2rem;
+    position: absolute;
+    text-align: center;
+    color: #000000;
+    width: 100%;
+    transform-style: preserve-3d;
+    transform:translate3d(0, 0, 75px);
+    transition: 0.5s;
+    z-index: 10;
+    user-select: none;
+    /* background: blue; */
+}
+/* .container .box:hover .name
+{
+    transform: translate3d(0, 0, 100px);
+} */
+/* .container .box .name::before
+{
+    content: attr(data-head);
+    font-family: abrilfatface, cursive;
+    position: absolute;
+    display: flex;
+    opacity: 0;
+    z-index: 5;
+    transform-style: preserve-3d;
+    transform:translate3d(0, 0, -125px);
+    transition: 0.5s;
+    writing-mode:vertical-rl;
+} */
+.container .box:hover .name::before
+{
+    opacity: 0.3;
+    transform:translate3d(0, 0, -75px);
+}
+.container .box:hover .entrance
+{
+    bottom:10px;
+    opacity: 1;
 }
 
 
+section.background {
+    position: absolute;
+    width: 100%;
+    height: 200vh;
+    z-index: -1;
+    overflow: hidden;
+}
+.set {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.set div {
+    font-family: gudianminchao;
+    font-size: 6rem;
+    color: black;
+    position: absolute;
+    display:block;
+	opacity: 0.1;
+    user-select: none;
+}
+.set div:nth-child(1){
+    left: 20%;
+    animation: animate 15s linear infinite;
+    animation-delay: -9s;
+}
+.set div:nth-child(2){
+    left: 30%;
+    animation: animate 20s linear infinite;
+    animation-delay: -5s;
+}
+
+.set div:nth-child(3){
+    left: 40%;
+    animation: animate 25s linear infinite;
+    animation-delay: -2s;
+}
+
+.set div:nth-child(4){
+    left: 50%;
+    animation: animate 18s linear infinite;
+    animation-delay: -7s;
+}
+
+.set div:nth-child(5){
+    left: 60%;
+    animation: animate 13s linear infinite;
+    animation-delay: -8s;
+}
+
+.set div:nth-child(6){
+    left: 70%;
+    animation: animate 22s linear infinite;
+    animation-delay: -8s;
+}
+
+.set div:nth-child(7){
+    left: 80%;
+    animation: animate 27s linear infinite;
+    animation-delay: -18s;
+}
+
+.set div:nth-child(8){
+    left: 90%;
+    animation: animate 22s linear infinite;
+    animation-delay: -4s;
+}
+
+.set div:nth-child(9){
+    left: 10%;
+    animation: animate 18s linear infinite;
+    animation-delay: -7s;
+}
+
+.set div:nth-child(10){
+    left: 0%;
+    animation: animate 11s linear infinite;
+    animation-delay: -1s;
+}
+
+@keyframes animate {
+    0%{
+        opacity: 0;
+        top: -10%;
+    }
+    10%{
+        opacity: 0.2;
+    }
+    20%{
+        transform: translateX(-20px) rotate(45deg);
+    }
+    40%{
+        transform: translateX(-20px) rotate(90deg);
+    }
+    60%{
+        transform: translateX(20px) rotate(135deg);
+    }
+    80%{
+        transform: translateX(-20px) rotate(180deg);
+    }
+    100%{
+        top: 110%;
+        transform: translateX(-20px) rotate(225deg);
+    }
+}
+.set2{
+    transform: scale(2) rotateY(180deg);
+    filter: blur(2px);
+}
+.set3{
+    transform: scale(0.8) rotateX(180deg);
+    filter: blur(4px);
+}
+.container2
+{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    z-index: 2;
+}
+.content
+{
+    display: none;
+}
+#machine
+{
+    position: absolute;
+    top: 35px;
+    margin-left: 40px;  
+}
+a{
+    color: black;
+}
+#typefiled
+{
+    position: relative;
+    margin-top: 220px;
+    display: block;
+    padding: 20px;
+    font-family: dugulishu;
+    font-size: 2rem;
+    width: 280px;
+    text-align: center;
+    /* background: chartreuse; */
+}
+
+.container3{
+    margin-top: 100px;
+    position: absolute;
+    /* background: #000000; */
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    /* background: black; */
+}
+.gallery1
+{
+    position: static;
+    /* background: chocolate; */
+    width: 50vw;
+    justify-content: right;
+    box-sizing: border-box;
+}
+.gallery2
+{
+    position: static;
+    /* background: rgb(95, 45, 10); */
+    justify-content: right;
+    width: 50vw;
+}
+
+
+.gallery1 .img
+{
+
+    position: relative;
+    height: 200px;
+    width: 500px;
+    padding-left: 10vw;
+    padding-top: 100px;
+}
+.gallery2 .img
+{
+    position: relative;
+    height: 200px;
+    width: 500px;
+    padding-left: 10vw;
+    padding-top: 100px;
+}
