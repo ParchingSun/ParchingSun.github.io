@@ -32,27 +32,26 @@ body
 }
 .container
 {
-    position: relative;
+    position: absolute;
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
-    width: 100vw;
-    height: 7vh;
-    transform-style: preserve-3d;
+    width: 85vw;
+    height: 2rem;
     z-index: 9;
-    /* background: chartreuse; */
+    background: white;
+    margin-top: 20px;
 }
 .container .box
 {
     position: relative;
     width: 150px;
-    height: 50px;
-    border-radius: 20px;
+    height: 2rem;
     margin: 20px;
-    display: flex;
+    display: block;
     justify-content: center;
     align-items: center;
-    transform-style: preserve-3d;
     /* background: chocolate; */
 }
 
@@ -64,8 +63,6 @@ body
     text-align: center;
     color: #000000;
     width: 100%;
-    transform-style: preserve-3d;
-    transform:translate3d(0, 0, 75px);
     transition: 0.5s;
     z-index: 10;
     user-select: none;
@@ -226,23 +223,46 @@ section.image{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    margin-top: 90px;
+    flex-direction: row;
+    
     z-index: 4;
+    height: 300vh;
+    width: 96vw;
     /* background: violet; */
   }
 .grid-container {
-    columns: 5;
-    width: 80vw;
+    width: 19vw;
+    height: 300vh;
+    display: flex;
+    flex-direction: column;
+    columns: 1;
     margin: 0 auto;
-    z-index: 4;
+    z-index: 5;
+    padding: 0.2vw;
 }
+section.image div.grid-container:nth-child(1){
+    animation: river 25s 1s linear infinite alternate-reverse;
+}
+section.image div.grid-container:nth-child(2){
+    animation: river 50s 1s linear infinite alternate-reverse;
+}
+section.image div.grid-container:nth-child(3){
+    animation: river 40s 1s linear infinite alternate-reverse;
+}
+section.image div.grid-container:nth-child(4){
+    animation: river 25s 1s linear infinite alternate-reverse;
+}
+section.image div.grid-container:nth-child(5){
+    animation: river 50s 1s linear infinite alternate-reverse;
+}
+
 .grid-container div {
-      width: 16vw;
+      width: 19vw;
       display: inline-block;
       transition: all .25s ease-in-out;}
+
 img {
-        width: 16vw;
+        width: 19vw;
         filter: grayscale(100%);
         border-radius: 10px;
         transition: all .25s ease-in-out;
@@ -251,3 +271,14 @@ img {
 .grid-container div:hover img{
         filter: grayscale(0);
       }
+@keyframes river{
+    0%{
+        margin-top: 0vh;
+    }
+    50%{
+        margin-top: -200vh;
+    }
+    100%{
+        margin-top: 0vh;
+    }
+}
