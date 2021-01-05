@@ -18,6 +18,11 @@
     font-family: dugulishu;
     src: url("../fonts/HanBiaoDuGuLiShu-2.ttf");
 }
+@font-face
+{
+    font-family: baizhoutaili;
+    src: url("../fonts/baizhoutaili.ttf");
+}
 *{
     margin: 0;
     padding: 0;
@@ -38,16 +43,16 @@ body
     align-items: center;
     flex-wrap: wrap;
     width: 85vw;
-    height: 2rem;
+    height: 5rem;
     z-index: 9;
-    background: white;
+    /* background: white; */
     margin-top: 20px;
 }
 .container .box
 {
     position: relative;
-    width: 150px;
-    height: 2rem;
+    width:fit-content;
+    height: 5rem;
     margin: 20px;
     display: block;
     justify-content: center;
@@ -61,14 +66,16 @@ body
     font-size: 2rem;
     position: absolute;
     text-align: center;
-    color: #000000;
-    width: 100%;
+    color: #ffffff;
     transition: 0.5s;
     z-index: 10;
     user-select: none;
     /* background: blue; */
 }
-
+.container .box:hover .name{
+    font-size: 2.5rem;
+    color: rgb(241, 255, 42);
+}
 
 section.background {
     position: absolute;
@@ -190,7 +197,8 @@ section.background {
     position: absolute;
     display: flex;
     justify-content: center;
-    z-index: 10;
+    z-index: 8;
+    /* background: chartreuse; */
 }
 .content
 {
@@ -199,23 +207,33 @@ section.background {
 #machine
 {
     position: absolute;
+    font-family: dugulishu;
+    font-size: 2rem;
     top: 35px;
-    margin-left: 40px;  
+    margin-left: 40px;
+    color: #000000;  
+    background: rgb(255, 255, 255);
+    padding: 0.5rem 1rem;
+    border: 1px;
+    border-radius: 25%;
+    z-index: 9;
+    margin-right: 90vw;
 }
 a{
     color: black;
+    text-decoration: none;
 }
 #typefiled
 {
     position: relative;
     margin-top: 220px;
-    display: block;
+    /* display: block; */
     padding: 20px;
     font-family: dugulishu;
     font-size: 2.5rem;
     width: 350px;
     text-align: center;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 section.image{
@@ -224,7 +242,6 @@ section.image{
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    
     z-index: 4;
     height: 300vh;
     width: 96vw;
@@ -237,48 +254,49 @@ section.image{
     flex-direction: column;
     columns: 1;
     margin: 0 auto;
-    z-index: 5;
+    z-index: 0;
     padding: 0.2vw;
 }
 section.image div.grid-container:nth-child(1){
-    animation: river 25s 1s linear infinite alternate-reverse;
+    animation: river 65s 1s linear infinite alternate-reverse;
 }
 section.image div.grid-container:nth-child(2){
     animation: river 50s 1s linear infinite alternate-reverse;
 }
 section.image div.grid-container:nth-child(3){
-    animation: river 40s 1s linear infinite alternate-reverse;
+    animation: river 45s 1s linear infinite alternate-reverse;
 }
 section.image div.grid-container:nth-child(4){
-    animation: river 25s 1s linear infinite alternate-reverse;
+    animation: river 65s 1s linear infinite alternate-reverse;
 }
 section.image div.grid-container:nth-child(5){
     animation: river 50s 1s linear infinite alternate-reverse;
 }
 
 .grid-container div {
-      width: 19vw;
+      width: 18vw;
       display: inline-block;
-      transition: all .25s ease-in-out;}
-
+      margin-top: 4px;
+      transition: all .25s ease-in-out;
+      
+}
 img {
-        width: 19vw;
-        filter: grayscale(100%);
-        border-radius: 10px;
-        transition: all .25s ease-in-out;
-        z-index: 4;
-          }
+    width: 18vw;
+    filter: grayscale(100%) blur(1px);
+    transition: all .25s ease-in-out;
+    border-radius: 10px 10px 10px 10px;
+      }
 .grid-container div:hover img{
-        filter: grayscale(0);
+        filter: grayscale(0) blur(0px);
       }
 @keyframes river{
     0%{
-        margin-top: 0vh;
+        margin-top: -100vh;
     }
     50%{
-        margin-top: -200vh;
+        margin-top: 0vh;
     }
     100%{
-        margin-top: 0vh;
+        margin-top: -100vh;
     }
 }
