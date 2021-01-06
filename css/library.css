@@ -26,7 +26,7 @@
 *{
     margin: 0;
     padding: 0;
-    overflow: hidden;
+    /* overflow: hidden; */
     user-select: none;
 }
 body
@@ -256,6 +256,8 @@ section.image{
     margin: 0 auto;
     z-index: 0;
     padding: 0.2vw;
+    z-index: 15;
+    background: greenyellow;
 }
 section.image div.grid-container:nth-child(1){
     animation: river 65s 1s linear infinite alternate-reverse;
@@ -274,17 +276,19 @@ section.image div.grid-container:nth-child(5){
 }
 
 .grid-container div {
+      /* position: absolute; */
       width: 18vw;
       display: inline-block;
       margin-top: 4px;
       transition: all .25s ease-in-out;
-      
+      z-index: 15;
 }
 img {
     width: 18vw;
     filter: grayscale(100%) blur(1px);
     transition: all .25s ease-in-out;
     border-radius: 10px 10px 10px 10px;
+    z-index: 15;
       }
 .grid-container div:hover img{
         filter: grayscale(0) blur(0px);
@@ -299,4 +303,16 @@ img {
     100%{
         margin-top: -100vh;
     }
+}
+#showdetails{
+    display: none;
+}
+.showdetailsstyle
+{
+    width: 300px;
+    height: 500px;
+    background: goldenrod;
+    margin-right: 60vw;
+    margin-top: 25vh;
+    z-index: 25;
 }
