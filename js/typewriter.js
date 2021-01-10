@@ -33,11 +33,12 @@ function writeContent(init) {
     document.getElementById('blink').style.display = 'inline';
   }
   if (charIndex <= stringLength) {
-    setTimeout('writeContent(false)', 140);
+    setTimeout('writeContent(false)', 50);
   } else {
     document.getElementById('blink').style.display = 'none';
   }
-  return writeAction = 1;
+  writeAction = 1;
+  console.log(writeAction);
 }
 var doesflur;
 function flur(){

@@ -205,9 +205,9 @@
             contentId = myContent.id;
             writeContent(true);
             myContent.innerHTML = "";
-            console.log('writeAction: ' + writeAction);
+            // console.log('writeAction: ' + writeAction);
             flur();
-            console.log(doesflur);
+            console.log('doesflur : 1');
         }
         title[1].onclick = function () {
             charIndex = -1;
@@ -281,14 +281,11 @@
             disappear();
         }
         document.getElementsByClassName('image')[0].onclick = function(){
-            if(writeAction == 1){
-                writeContent(false);
-            }
-            if(doesflur == 1){
+            if(writeAction == 1 & doesflur == 1){
                 deflur();
                 console.log('flur has been removed!');
+                myContent.innerHTML = "";
             }
-            
         };
             
         
