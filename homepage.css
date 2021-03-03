@@ -9,15 +9,46 @@
     unicode-range: U+26-79;
   }
 
-/*设置普遍格式：内边距，字体*/
+/* global setting*/
 body {
-	padding-left: 2.5%;
-	padding-right: 2.5%;
-	padding-top: 2.5%;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 20px;
 	font-size: 22px;
 	font-family: STSong;
 	overflow: hidden;
 }
+
+/* Three plates */
+.plate{
+    display: flex;
+    flex-direction: row;
+    width: 1300px;
+}
+.part1{
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+}
+.part2{
+    width: 510px;
+    min-width: 200px;
+}
+.introduction{
+    width: 600px;
+    height: 200px;
+    margin-left: 20px;
+}
+.index{
+    width: 700px;
+    height: 400px;
+}
+.import-doc{
+    width: 510px;
+    height: 600px;
+}
+
 
 .artical {
 	font-size: 18px;
@@ -46,19 +77,15 @@ abbr {
 
 /*设置每页简介段落格式*/
 .shortpara {
-	padding-right: 50%;
 	text-indent: 2em;
     line-height: 1.5;
     font-family: unset;
     -webkit-font-family: SimSong, STSong;
     -moz-font-family: SimSong, STSong, SimHei;
 }
-div.index
-{
-    z-index: 20;
-    width: 800px;
-}
-section.wordbackground
+
+/* index */
+section.content_index
 {
     display: flex;
     justify-content: left;
@@ -66,12 +93,10 @@ section.wordbackground
 ul{
     display: flex;
     flex-direction: column;
-    margin-left: 3%;
 }
 ul li{
     list-style: none;
 }
-/*设置每页索引格式*/
 ul li a{
     display: block;
     font-family: gudianminchao;
@@ -79,8 +104,10 @@ ul li a{
     line-height: 3rem;
     color: rgb(36, 34, 34);
 }
-
-ul li a::before
+ul li a:hover{
+    color: rgb(182, 2, 2);
+}
+/* ul li a::before
 {
     content: attr(data-title);
     position: absolute;
@@ -100,7 +127,9 @@ ul li a::before
 ul li:hover a::before
 {
     opacity : 0.2;
-}
+} */
+
+
 .video
 {
     box-sizing: border-box;

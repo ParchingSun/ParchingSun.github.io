@@ -111,8 +111,10 @@
         <div class="para"><span class="head">3. Data Types</span>
             <span class="code">
                 <span class="notation">/*Peimitive data types and Reference types*/</span>
-                <span class="notation">*Permitive data types: string, number, boolean, null, undefined, symbols.*/</span>
-                <span class="notation">*Reference data types: arrays, object literals, functions, dates and anything else*/</span>
+                <span class="notation">*Permitive data types: string, number, boolean, null, undefined,
+                    symbols.*/</span>
+                <span class="notation">*Reference data types: arrays, object literals, functions, dates and anything
+                    else*/</span>
                 <span class="notation">*JavaScript is dynamicallly typed language.*/</span>
                 <span class="notation">//PEIMITIVE</span>
                 <span class="notation">//String</span>
@@ -133,8 +135,8 @@
                 const hobbies = ['Movies', 'Music'];
                 <span class="notation">//Object literal</span>
                 const address = {
-                    &#12288city :'Boston',
-                    &#12288state : 'MA'
+                &#12288city :'Boston',
+                &#12288state : 'MA'
                 }
                 <span class="notation">//Date</span>
                 const today = new Date();
@@ -144,29 +146,30 @@
         </div>
         <div class="para"><span class="head">4. Type conversion</span>
             <span class="code">
-               <span class="notation">//To String</span>
-               val = string(number, boolean, true, new Date(), array);
-               val = (number, boolean, true, new Date(), array).toString();
-               <span class="notation">//To Number: arrry and string with charaters donot work well with this method</span>
-               val = Number(string, boolean, null)
+                <span class="notation">//To String</span>
+                val = string(number, boolean, true, new Date(), array);
+                val = (number, boolean, true, new Date(), array).toString();
+                <span class="notation">//To Number: arrry and string with charaters donot work well with this
+                    method</span>
+                val = Number(string, boolean, null)
             </span>
         </div>
         <div class="para"><span class="head">5. Numbers and Math Object</span>
             <span class="code">
-               <span class="notation">//Simple math operater: +, *, -, /, % 
-                   /*Math object: 
-                   &#12288Math.PI
-                   &#12288Math.E
-                   &#12288Math.round()
-                   &#12288Math.ceil()
-                   &#12288Math.floor()
-                   &#12288Math.sqrt()
-                   &#12288Math.abs()
-                   &#12288Math.pow()
-                   &#12288Math.min()
-                   &#12288Math.max()
-                   &#12288Math.random()
-               </span>
+                <span class="notation">//Simple math operater: +, *, -, /, %
+                    /*Math object:
+                    &#12288Math.PI
+                    &#12288Math.E
+                    &#12288Math.round()
+                    &#12288Math.ceil()
+                    &#12288Math.floor()
+                    &#12288Math.sqrt()
+                    &#12288Math.abs()
+                    &#12288Math.pow()
+                    &#12288Math.min()
+                    &#12288Math.max()
+                    &#12288Math.random()
+                </span>
             </span>
         </div>
         <div class="para"><span class="head">6. String methods and Concatenation</span>
@@ -175,9 +178,9 @@
                 const lastName = 'Johnson';
                 const str = 'Hello there my name is Brad';
                 const tags = 'web design, web development, programming';
-                
+
                 let val;
-                
+
                 <span class="notation">//Concatenation</span>
                 val = firstName + ' ' + lastName;
                 <span class="notation">//Append</span>
@@ -211,11 +214,120 @@
                 console.log(val);
             </span>
         </div>
-        <div class="para"><span class="head"></span>
+        <div class="para"><span class="head">7. Template strings</span>
             <span class="code">
-               
+                const name = 'John';
+                const age = 30;
+                const job = 'Web Developer';
+                const city = 'Miami';
+
+                let html;
+
+                <span class="notation">// Without template strings(es5)</span>
+                html = '<ul>
+                    <li>Name: ' + name + '</li>
+                    <li>Age: ' + age + '</li>
+                    <li>' + job + '</li>
+                    <li>City: ' + city + '</li>
+                    </ui>';
+
+                    <span class="notation">// With template strings(es6)-better!</span>
+                    function hello(){
+                    return 'hello';
+                    }
+                    html = `
+                    <ul>
+                        <li>Name: ${name}</il>
+                        <li>Age: ${age}</il>
+                        <li>Job: ${job}</il>
+                        <li>City: ${city}</il>
+                        <li>${2 + 2}</li>
+                        <li>${hello()}</li>
+                        <li>${age > 30 ? 'Over 30' : 'Under 30'}</li>
+                        <li></li>
+                    </ul>
+                    `;
+                    //${variables, calculation, function, condition}
+
+                    document.body.innerHTML = html;
             </span>
         </div>
+        <div class="para"><span class="head">8. Arrays and Array Methods</span>
+            <span class="code">
+                Store multiplay values in one variables and these values can be mutated and iterated through and be used
+                in some really complex algorithms.
+                <span class="notation">// Create some arrarys</span>
+                const arrary = [43,56,33,'apple','banana',true,undefined,null,{a:1, b:1},new Date()];
+                const arrary2 = new Array(43,56,33,23,44,36,5);
+                console.log(arrary);
+
+                let val;
+                <span class="notation">//Get array length</span>
+                val = arrary.length;
+                <span class="notation">// Check if is arrary</span>
+                val = Array.isArray(arrary);
+                <span class="notation">// Get single value</span>
+                val = arrary[1];
+                <span class="notation">// Insert into arrary</span>
+                arrary[0] = 'insert';
+                <span class="notation">// Find index of value</span>
+                val = arrary.indexOf('apple');
+
+                <span class="notation">// MUTATING ARRARYS</span>
+                <span class="notation">// Add on to end: .push()</span>
+                arrary.push('push');
+                <span class="notation">// Add on to front: .unshift()</span>
+                arrary.unshift('unshift');
+                <span class="notation">// Take off from end: .pop()</span>
+                arrary.pop();
+                <span class="notation">// Take off from front: .shift()</span>
+                arrary.shift();
+                <span class="notation">// Splice values: .splice()</span>
+                arrary.splice(0,4);
+                <span class="notation">// Reverse: .reverse()</span>
+                arrary.reverse();</span>
+
+                <span class="notation">// Concatenate arrary: .concat()</span>
+                val = arrary.concat(arrary2);
+
+                <span class="notation">// Sorting arrarys</span>
+                val = ['java', 'apple', 'hello'].sort();
+                <span class="notation">// return arrary in alphabetical order</span>
+                val = arrary2.sort();
+                val = arrary2.sort(function(x, y){return y - x;});
+
+                <span class="notation">// Find</span>
+                function under50(num){
+                return num < 50; } val=arrary2.find(under50); console.log(val); console.log(arrary); 
+            </span>
+        </div>
+        <div class="para"><span class="head">9. Object literals</span>
+            <span class="code">
+                <span class="notation"></span>
+            </span>
+        </div>
+
+        <div class="para"><span class="head"></span>
+            <span class="code">
+                <span class="notation"></span>
+            </span>
+        </div>
+        <div class="para"><span class="head"></span>
+            <span class="code">
+                <span class="notation"></span>
+            </span>
+        </div>
+        <div class="para"><span class="head"></span>
+            <span class="code">
+                <span class="notation"></span>
+            </span>
+        </div>
+        <div class="para"><span class="head"></span>
+            <span class="code">
+                <span class="notation"></span>
+            </span>
+        </div>
+
         <h3><a href="../homepage.html">回到主页</a></h3>
     </section>
     <section class="commentbar">
