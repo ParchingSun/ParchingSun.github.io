@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../../css/articles.css">
+    <style></style>
+    <title>啪卿领域</title>
+</head>
+<body>
+    <section class="background">
+    </section>
+    <section class="indexbar">
+        <div class="index">
+            <ul>
+                <li class="index-con"><h3><a href="">板块目录（点击展开）</a></h3></li>
+                    <ul>
+                        <li><a href="htmlnotes.html">HTML笔记</a></li>
+                        <li><a href="cssnotes.html">CSS笔记</a></li>
+                        <li><a href="javascript notes.html">JS笔记</a></li>
+                        <li><a href="git nots.html">Git笔记</a></li>
+                        <li><a href="gamemaker notes.html">GameMaker笔记</a></li>
+                        <li><a href="unreal engine notes.html">Unreal Engine笔记<a></li>
+                    </ul>
+                <li class="index-con">
+					<h3 class="return"><a href="../../homepage.html">返回主页</a></h3>
+				</li>
+            </ul>
+        </div>
+    </section>
+    <section class="content">
+        <div class="article">
+            <h2>工具掌握</h2>
+                <a name = ""></a>
+                <h3>CSS 笔记</h3>
+                <div class="para">1.Basic snytax:[0]<br/>
+                    (1)A CSS rule is included two parts: <b>Selector</b> and <b>Declaration(s)</b>.<br/>
+                    (2)A declaration is included two parts: <b>Property</b> and <b>Value</b>. Property is the style attritube
+                    you want to set. Property and Value are separate by a colon.<br/>
+                    (3)If value contain several words, then we need add a quotation marks.<br/>
+                    (4)If there are several declarations, then we need semicolons to separate them.<br/>
+                    (5)CSS is not sensitive to uppercase and lowercase letters except name and id when working with HTML.<br/></div>
+                <div class="para">2.Advanced snytax:
+                    <bv />
+                    (1)If we want several selectors to share one declaration, then put them together and separate them with
+                    comma.<br/>
+                    (2)In general, son elements will inherit declaration from father elements. Some times, thing also go
+                    differently. What we need to do is just giving the same or different declarations to son elements at the
+                    mean time. Elements allways focus on the declarations or attributes nearest to them.<br/></div>
+                <div class="para">3.Derived/Contextual selector:<br/>
+                    (1)use contextual relationship to define style of tags. e.g. li strong {color: blue} means that only strong
+                    tags in li tags will be blue.<br/>
+                    (2)In these notes, you can find I have used this selector to change color of bold words in paragraph.<br/>
+                    (3)tags referred in derived selector need not to be neighboring. they can separate enough far only if they
+                    have ancestor-descendents relationship.<br/>
+                    (4)for some circumstances, we do not want to choose all descendents of the first elements, what we need is
+                    just using > to combine two elements which means choose those elements that matched by the second selector
+                    that are direct children of elements matched by the first.(didnot work well now!!!)</div>
+                <div class="para">4.Id selector: use id to define style of elements with specific id.<br/>
+                    (1)Id selector is defined by #.<br/>
+                    (2)id selector is sentive to uppercase and lowercase letters.<br/>
+                    (3)we can't combine several id together and give them declarations like class selector.<br/>
+                    (4)There are three application for id selector:<br/>
+                    <ol>
+                        <li>define specific tag with that id. e.g. # green {color : green} &ltp id="green"&gt</li>
+                        <li>create derived selector. e.g. #strong p {color :green} means paragraphs in strong elements will be
+                            green.</li>
+                        <li>use alone.</li>
+                    </ol></div>
+                <div class="para">5.Class selector: <br/>
+                    (1)Class selector is defined by a dot.<br/>
+                    (2)Class selector can also be used to create derived selector. e.g. .fancy td {color: #f60} means table in
+                    elements with class "fancy" will have an orange font color.<br/>
+                    (3)Besides, we can select specific elements by their class, e.g. td.fancy {color: #f60} means table with
+                    class "fancy" will have an orange font color.<br/>
+                    (4)multiple classes selector: set several class names for one element or combine several class names
+                    together and give them the same declaration.<br/>
+                    (5)class selector is sensitive to uppercase and lowercase letters.<br/></div>
+                <div class="para">6.Attritube selector:<br/>
+                    (1)syntax :(selector)[attritube = "value" ][attritube = "value" ] {declarations}.<br/>
+                    (2)Attritube is very useful when hanlding with table elements without id and class.<br/>
+                    (3)we can also use other comparable symbol to replace = :<br/>
+                <dl>
+                    <li>~=</li>
+                    <dd>value is included in attritube being independent words</dd>
+                    <li>|=</li>
+                    <dd>value is included in attritube being alone and independent words or combine with other words using -.
+                    </dd>
+                    <li>*=</li>
+                    <dd>value is included in attritube being a string of letters.</dd>
+                    <li>^=</li>
+                    <dd>value is included in attritube being starting letters.</dd>
+                    <li>$=</li>
+                    <dd>value is included in attritube being ending letters.</dd>
+                </dl></div>
+                <div class="para">7.CSS background:<br/>
+                    (1)background color: can not be inherited.<br/>
+                    (2)background image:<br/>
+                    syntax: selector{background-image: url(spr_origin.png)}
+                    other attritubes: most background image is applied to body, while you can also apply it to other elements
+                    like p , a.<br/>
+                <ul title="square">
+                    <li>background-attachment</li>
+                    <li>background-position: keywords, percentage, digital.</li>
+                    <li>background-repeat</li>
+                </ul></div>
+                <div class="para">8.CSS text:<br/>
+                    (1)text indent:<br/>
+                    a. alue unit can be px or em or rem.<br/>
+                    b. value can be minus.<br/>
+                    c. value can be a percentage.<br/>
+                    d. value can be inherited.<br/>
+                    (2)text align:<br/>
+                    a. values: left, right, center, justify.<br/>
+                    b. to make bolck element or table center, you need appropriate padding.<br/>
+                    (3)words space<br/>
+                    (4)letter space<br/>
+                    (5)text transform: values include none, uppercase, lowercase, capitalize.<br/>
+                    (6)text decoration: values include none, upperline, lowerline, line-through. One declaration can contain
+                    several decoration, while nearest decoration will replace further decoration.<br/>
+                    (7)white-space: values include normal, pre, nowrap, pre-line, pre-wrap.<br/>
+                    (8)direction: values include ltr, rtl, the fault value is ltr.<br/></div>
+                <div class="para">9.CSS font:<br/>
+                    (1)font series: selector {font-family: prefered font, second prefered font, ~, alternative font}<br/>
+                    (2)If font name is more than one word, we need apostrophe or double quotes, if in style, we need use
+                    apostrophe.<br/>
+                    (3)font style: three values normal, italic, oblique. The last two is different while in browser they look
+                    the same.<br/>
+                    (4)font-variant: fault, small-caps. It seems this attritube can't work.<br/>
+                    (5)font-weight: values 100 to 900 or lighter, light , normal, bold, bolder.<br/>
+                    (6)font-size: three plans use px or use em or combine percentage(for father elements) and em(for son
+                    elements).</div>
+                <div class="para">10.CSS list: synatx is (ul, ol, dl) li {list-style: url(example.gif) marker position}</div>
+                <div class="para">11.CSS table:
+                    (1)common attritubes: border, border-collaspe, border-spacing, caption-side, width, height, text-align,
+                    vertical-align, padding, background-color, color(for text), empty cells(show, hide), overflow,
+                    text-overflow(ellipsis), table-layout(values: auto, fixed.</div>
+                <div class="para">12.CSS outline: set style, width, color of outline.</div>
+                <div class="para">13.CSS box model<br/>
+                    (1)pading: unit can be px, em , ex, %(for the width of parent element).<br/>
+                    (2)margin: unit can be px, em, %(for the width of parent element). margin merging is triggered when two
+                    vertical margin enconter, the final margin is depended on the larger vertical margin.<br/>
+                    <img src="../../images/box model.png"><br/>
+                    (3)value copy:<br/>
+                    <img src="../../images/value copy.png"><br/></div>
+                <div class="para">14.CSS border:<br/>
+                    (1)background is contain border, while border is on the upside of background.<br/>
+                    (2)the fault value of border style is none. so if we want a border, make sure that declare a border style
+                    before width and so on.
+                    (2)we can set severial styles for different side of a border. The sequence is following
+                    top-right-bottom-left, just like padding.<br/>
+                    (3)we can also set sepecific sytle for one side of a border when we put one-side attritube after the whole
+                    attributes.<br/>
+                    (4)border-width: number values or keyword values(thick, medium, thin). If use keyword values, border width
+                    is depended on user agent. Also, you can set one side width just like border-style. If values is less than,
+                    then value will copy to empty position automaticly.<br/>
+                    (5)border-color: values include color name, RGB value, hexadecimal value.<br/></div>
+                <div class="para">15.CSS positioning:<br/>
+                    (1)every element is box. For div, h, p, we call them block box. For elements like strong, span, we call them
+                    in-line box.<br/>
+                    (2)we can use attritube_display to change box type. Also, there are a specific box call no-name box, which
+                    refer texts in a block box.<br/>
+                    (3)position attritubes:
+                <dl>
+                    <li>static</li>
+                    <dd>default value. elements render in order, as they appear in the document flow.</dd>
+                    <li>absolute</li>
+                    <dd>the element is positioned relative to its first positioned ancestor element or initial block(maybe
+                        canvas or html element). this property may make one block cover other bolocs, we can use z-index
+                        attritubes to decide their zorder</dd>
+                    <li>fixed</li>
+                    <dd>the element is positioned to the browser window.</dd>
+                    <li>relative</li>
+                    <dd>the element is positoned realtive to its normal position in static. and the room of normal position is
+                        still keeped.</dd>
+                    <li>sticky</li>
+                    <dd>the element is positioned based on the user's scroll position. a sticky element toggles between relative
+                        and fixed, depending on the scroll position. Index float in the right of this website is setted to this
+                        property.</dd>
+                    <li>initial</li>
+                    <dd>sets this property to its default value.</dd>
+                    <li>inherit</li>
+                    <dd>inherits this property from its parent element.</dd>
+                </dl>
+                <img src="../../images/position attritubes.png" width=800 em></div>
+                <div class="para">16.CSS folat:
+                    (1)values: none, left, right, initial, inherit.<br/>
+                    (2)combine span tag to realize that the first letter of a paragraph is surrounded by other letters. <br/>
+                    (3)combine list tag to realize a horizontal or vertical menu.<br/>
+                    (4)If you don't want letters surround float elements, just use clear(values:none, left, right)</div>
+                <div class="para">17.universal selector: *{declaration}, set style for all elements in the html document.</div>
+                <div class="para">18.adjacent sibling selector: select the element right after one element if these two element have the same
+                    parent element. synatx: element + element {declarations}. this selector can be combined with other selector.</div>
+                <div class="para">19.Pseudo-classed:<br/>
+                    (1)synatx: selector : pseudo-class {property : value}<br/>
+                    (2)first-child pseudo-class: synatx is element_name : first-child{declarations}, which does not mean the
+                    first child element of element_name, but means the element_name in a bigger element will be set to sepecific
+                    style. Actually, we do not care about the bigger element.<br/>
+                    (3)lang pseudo-class: allow you to set style for elements with sepecific lang_attribute. the syntax is
+                    :lang(name) > element {&ltlanguage-code&gt}<br/>
+                    (4)anchorpoint pseudo-class:<br/>
+                <dl>
+                    <li>a:link {declarations}</li>
+                    <dd>link that have not been visited.</dd>
+                    <li>a:visited {declarations}</li>
+                    <dd>link that have been visited.</dd>
+                    <li>a:hover {declarations}/li>
+                        <dd>when mouse move over the link.</dd>
+                    <li>a:active {declarations}</li>
+                    <dd>link that have been selected.</dd>
+                </dl></div>
+                <div class="para">20.Pseudo-elements:<br/>
+                    (1)syntax: selector : pseudo-elements {property : value;}<br/>
+                    (2):first-line(can only be used in block elements)<br/>
+                    (3):first-letter(can only be used in block elements)<br/>
+                    (4):before : insert elements in front of specific element.<br/>
+                    (5):after : insert elements after specific element.<br/></div>
+                <div class="para">21.Dimension: control height and width of elements, and line-spacing.</div>
+                <div class="para">22.Classification: clear, cursor, display, float, position, visibility.<br/></div>
+                <div class="para">23.Media types: @media (types) {}, allow to control different style in different medias.<br/></div>
+                <div class="para"></div>
+                
+                <h3><a href="../../homepage.html">回到主页</a></h3>
+        </div>
+    </section>
+    <section class="commentbar">
+        <div class="comments">[0]备注</div>
+        <div class="comments"></div>
+    </section>
+    <script src="../../js/background.js"></script>
+    <script type="text/javascript" src="../../js/comments.js"></script>
+</body>
+</html>

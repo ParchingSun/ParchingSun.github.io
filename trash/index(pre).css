@@ -1,0 +1,34 @@
+.curtain {
+	position: absolute;
+	width: 100%;
+	height: 100vh;
+	margin: 0;
+	padding: 0;
+	background-color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.loading {
+	font-family: SimSon, FangSong, SimHei;
+	font-size: 1.5em;
+	text-align: center;
+	font-weight: 500;
+	display: block;
+}
+.mask {
+	position: absolute;
+	text-align: center;
+	height: 1.5em;
+	width: 400px;
+	background-color: white;
+	animation: width 4s linear 1 forwards;
+	border: none;
+}
+@keyframes width
+{
+	to
+	{
+		width: 0px;
+	}
+}

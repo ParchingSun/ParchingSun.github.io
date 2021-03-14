@@ -26,238 +26,94 @@
 *{
     margin: 0;
     padding: 0;
-    /* overflow: hidden; */
+    overflow: hidden;
     user-select: none;
 }
 body
 {
     height: 100vh;
+    min-width: 1300px;
     display: flex;
-    justify-content: center;
+    justify-content: left;
 }
-.container
+/* datacontainer: show text */
+.data-container
 {
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    width: 85vw;
-    height: 5rem;
-    z-index: 9;
-    /* background: white; */
-    margin-top: 20px;
+    width: 40%;
+    z-index: 30;
 }
-.container .box
+.data
 {
-    position: relative;
-    width:fit-content;
-    height: 5rem;
-    margin: 20px;
-    display: block;
-    justify-content: center;
-    align-items: center;
-    /* background: chocolate; */
-}
-
-.container .box .name
-{
-    font-family: dugulishu;
-    font-size: 2rem;
-    position: absolute;
-    text-align: center;
-    color: #ffffff;
-    transition: 0.5s;
-    z-index: 10;
-    user-select: none;
-    /* background: blue; */
-}
-.container .box:hover .name{
-    font-size: 2.5rem;
-    color: rgb(241, 255, 42);
-}
-
-section.background {
-    position: absolute;
-    width: 100%;
-    height: 200vh;
-    z-index: -1;
-    overflow: hidden;
-}
-.set {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-.set div {
-    font-family: gudianminchao;
-    font-size: 6rem;
-    color: black;
-    position: absolute;
-    display:block;
-	opacity: 0.1;
-    user-select: none;
-}
-.set div:nth-child(1){
-    left: 20%;
-    animation: animate 15s linear infinite;
-    animation-delay: -9s;
-}
-.set div:nth-child(2){
-    left: 30%;
-    animation: animate 20s linear infinite;
-    animation-delay: -5s;
-}
-
-.set div:nth-child(3){
-    left: 40%;
-    animation: animate 25s linear infinite;
-    animation-delay: -2s;
-}
-
-.set div:nth-child(4){
-    left: 50%;
-    animation: animate 18s linear infinite;
-    animation-delay: -7s;
-}
-
-.set div:nth-child(5){
-    left: 60%;
-    animation: animate 13s linear infinite;
-    animation-delay: -8s;
-}
-
-.set div:nth-child(6){
-    left: 70%;
-    animation: animate 22s linear infinite;
-    animation-delay: -8s;
-}
-
-.set div:nth-child(7){
-    left: 80%;
-    animation: animate 27s linear infinite;
-    animation-delay: -18s;
-}
-
-.set div:nth-child(8){
-    left: 90%;
-    animation: animate 22s linear infinite;
-    animation-delay: -4s;
-}
-
-.set div:nth-child(9){
-    left: 10%;
-    animation: animate 18s linear infinite;
-    animation-delay: -7s;
-}
-
-.set div:nth-child(10){
-    left: 0%;
-    animation: animate 11s linear infinite;
-    animation-delay: -1s;
-}
-
-@keyframes animate {
-    0%{
-        opacity: 0;
-        top: -10%;
-    }
-    10%{
-        opacity: 0.2;
-    }
-    20%{
-        transform: translateX(-20px) rotate(45deg);
-    }
-    40%{
-        transform: translateX(-20px) rotate(90deg);
-    }
-    60%{
-        transform: translateX(20px) rotate(135deg);
-    }
-    80%{
-        transform: translateX(-20px) rotate(180deg);
-    }
-    100%{
-        top: 110%;
-        transform: translateX(-20px) rotate(225deg);
-    }
-}
-.set2{
-    transform: scale(2) rotateY(180deg);
-    filter: blur(2px);
-}
-.set3{
-    transform: scale(0.8) rotateX(180deg);
-    filter: blur(4px);
-}
-.container2
-{
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    z-index: 8;
-    /* background: chartreuse; */
-}
-.content
-{
-    display: none;
-}
-#machine
-{
-    position: absolute;
-    font-family: dugulishu;
-    font-size: 2rem;
-    top: 35px;
+    width: 600px;
     margin-left: 40px;
-    color: #000000;  
-    background: rgb(255, 255, 255);
-    padding: 0.5rem 1rem;
-    border: 1px;
-    border-radius: 25%;
-    z-index: 9;
-    margin-right: 90vw;
-}
-a{
-    color: black;
-    text-decoration: none;
-}
-#typefiled
-{
-    position: relative;
-    margin-top: 220px;
-    /* display: block; */
+    margin-top: 30px;
     padding: 20px;
-    font-family: dugulishu;
-    font-size: 2.5rem;
-    width: 350px;
-    text-align: center;
-    color: rgb(255, 255, 255);
+    z-index: 31;
+}
+.para
+{
+    text-align: left;
+    line-height: 2em;
+    text-indent: 32px;
+    width: 600px;
+    margin: auto;
+}
+h2
+{
+    padding-top: 10px;
+    margin-left: 10px;
+}
+h3
+{
+    padding-top: 10px;
+    margin-left: 20px;
+    width: 100px;
+}
+h3:hover
+{
+    border-left: 10px solid black; 
+    padding-left: 8px;
+}
+.data div
+{
+    margin-left: 50px;
+    z-index: 30;
+}
+div.return
+{
+    width: 600px;
+    margin-left: 0px;
+    margin-top: 50px;
+}
+a
+{
+    text-decoration: none;
+    color: black;
 }
 
-section.image{
-    position: absolute;
+/* image part */
+.image{
+    width: 60%;
+    position: static;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    z-index: 4;
-    height: 300vh;
-    width: 96vw;
+    z-index: 20;
+    /* height: 300vh; */
     /* background: violet; */
   }
+
 .grid-container {
-    width: 19vw;
-    height: 300vh;
+    width: 115px;
+    /* height: 300vh; */
     display: flex;
     flex-direction: column;
     columns: 1;
-    margin: 0 auto;
-    z-index: 0;
-    padding: 0.2vw;
+    padding: 10px;
     z-index: 15;
-    background: greenyellow;
+    margin-top: -30vh;
+    /* background: greenyellow; */
 }
 section.image div.grid-container:nth-child(1){
     animation: river 65s 1s linear infinite alternate-reverse;
@@ -276,43 +132,32 @@ section.image div.grid-container:nth-child(5){
 }
 
 .grid-container div {
-      /* position: absolute; */
-      width: 18vw;
+      width: 115px;
       display: inline-block;
-      margin-top: 4px;
+      margin-top: 20px;
       transition: all .25s ease-in-out;
       z-index: 15;
-}
+      /* background-color: aqua; */
+    }
 img {
-    width: 18vw;
-    /* filter: grayscale(100%) blur(1px); */
+    width: 115px;
+    filter: grayscale(100%) opacity(0.2);
     transition: all .25s ease-in-out;
     border-radius: 10px 10px 10px 10px;
     z-index: 15;
-      }
-/* .grid-container div:hover img{
-        filter: grayscale(0) blur(0px);
-      } */
+    box-shadow:5px -9px 2px 1px rgba(51, 51, 51, 0.2);
+}
+.grid-container div:hover img{
+    filter: grayscale(100%) opacity(0.3);
+}
 @keyframes river{
     0%{
-        margin-top: -100vh;
+        margin-top: -30vh;
     }
     50%{
         margin-top: 0vh;
     }
     100%{
-        margin-top: -100vh;
+        margin-top: -30vh;
     }
-}
-#showdetails{
-    display: none;
-}
-.showdetailsstyle
-{
-    width: 300px;
-    height: 500px;
-    background: goldenrod;
-    margin-right: 60vw;
-    margin-top: 25vh;
-    z-index: 25;
 }

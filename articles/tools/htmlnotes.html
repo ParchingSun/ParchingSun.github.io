@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../../css/articles.css">
+    <style></style>
+
+    <title>啪卿领域</title>
+</head>
+
+<body>
+    <section class="background">
+    </section>
+    <section class="indexbar">
+        <div class="index">
+            <ul>
+                <li class="index-con">
+                    <h3><a href="">板块目录（点击展开）</a></h3>
+                </li>
+                <ul>
+                    <li><a href="htmlnotes.html">HTML笔记</a></li>
+                    <li><a href="css notes.html">CSS笔记</a></li>
+                    <li><a href="javascript notes.html">JS笔记</a></li>
+                    <li><a href="#">Git笔记</a></li>
+                    <li><a href="gamemaker notes.html">GameMaker笔记</a></li>
+                    <li><a href="unreal engine notes.html">Unreal Engine笔记<a></li>
+                </ul>
+                <li class="index-con">
+                    <h3 class="return"><a href="../../homepage.html">返回主页</a></h3>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section class="content">
+        <div class="article">
+            <h2>工具掌握</h2>
+            <a name=""></a>
+            <h3>HTML笔记</h3>
+            <div class="para">[0]主要包括三个板块：
+                <a href="#basic">基础笔记</a>、
+                <a href="#advance">进阶笔记</a>
+                和<a href="#resource">前辈资源</a>
+            </div>
+            <a name="basic"></a>
+            <h4>基础笔记</h4>
+            <div class="para">1. Link:tag:&lta&gt&lt/a&gt
+                <a href=http://parchingsun.github.io>This is my bolg link</a>
+            </div>
+            <div class="para">2. Add image:<br />
+                <img src="../../images/spr_origin.png" width="231" height="232" alt="origin" />
+            </div>
+            <div class="para">3. HTML elements:(1)Elements means all code between start tag and end tag；(2)some elements
+                have enpty content.；(3)most elements can have attributes.；(4)most elements can be nested.</div>
+            <div class="para">4. Use "/" to close start tag.</div>
+            <div class="para">5. Attributes for elements are difined in the start tags. Attributes should be included by
+                "".</div>
+            <div class="para">6. HTML use h1-h6 to define headings. h1 is the biggest, while h6 is the smallest. HTML
+                will automatically add a "enter" after block elements like paragraph and heading.</div>
+            <div class="para">7. hr tag is used for separate contents.</div>
+            <div class="para">8. HTML will only show one blank line/space if you use a few enters and space in code.
+                Except you use "pre" element.</div>
+            <div class="para">9. Style offer a way to change elements' style, like colour, font.<br />
+                To change style, you can apply style to elements through HTML code, and you can also use <acronym
+                    title="Cascading Style Sheets"><b>CSS</b></acronym>.<br />
+                Some tags and attributes (inc.center/font/strike/u/align/bgcolor/color) are not used in the furture, we
+                replace them with style.</div>
+            <div class="para">10. There are two attributes can use for create links:href(outside html)/name(inside
+                html).</div>
+            <div class="para">11. Use a tag to set anchors and use them.</div>
+            <div class="para">12. Use table tag to create a table.<br />
+                <table border=4 title="table_1">
+                    <tr>
+                        <th>Name</th>
+                        <th>Score</th>
+                    <tr>
+                        <td>Tom</td>
+                        <td>95</td>
+                    </tr>
+                    <tr>
+                        <td>Jack</td>
+                        <td></td>
+                    </tr>
+                    </tr>
+                </table><br />
+                If empty table data can not show correctly, them use a space blankholder.<br />
+                Table data can be text, image, paragraph, list, horizontal line and table.
+            </div>
+            <div class="para">13. Use ul / ol / dl to create list. ul means disorderly list. ol means orderly list. dl
+                means definited
+                list(?) which means you can add definition after every list.</div>
+            <div class="para">14.Form is used for collecting different types of user input. Form involve form elements
+                which allow
+                users to input information in form(<b>text</b> field, drop-down list, <b>radio</b> buttons and
+                <b>checkbox</b>.)
+                <fieldset>
+                    <legend>QUESTIONNAIRE FOR FRESHMAN</legend>
+                    <form name="input" action="user_name.asp" method="get" target="_blank">
+                        <label>First name:<input type="text" name="firstname" /></label></label><br />
+                        <label>Last name:<input type="text" name="firstname"></label></label><br />
+                        Sex:<br />
+                        <input type="radio" name="Sex" />Boy<br />
+                        <input type="radio" name="Sex" />Gril<br />
+                        Languages:<br />
+                        <input type="checkbox" name="Java" />I can use Java<br />
+                        <input type="checkbox" name="C++" />I can use C++<br />
+                        <input type="checkbox" name="Python" />I can use Python<br />
+                        Other information you want to tell us:<br />
+                        <textarea cols="50" rows="5"></textarea><br />
+                        <input type="submit" value="submit" />
+                    </form>
+                </fieldset>
+                Question: How to store the information that user input? In other words, how to create and use asp
+                document?
+                <form>
+                    <select name="cars">
+                        <option value="volvo">Volvo</option>
+                        <option value="saab">Saab</option>
+                        <option value="fiat">Fiat</option>
+                        <option value="audi">Audi</option>
+                    </select>
+                </form>
+
+                <form>
+                    <select name="cars">
+                        <option value="volvo">Volvo</option>
+                        <option value="saab">Saab</option>
+                        <option value="fiat" selected="selected">Fiat</option>
+                        <option value="audi">Audi</option>
+                    </select>
+                </form>
+            </div>
+            <div class="para">15. We can use an image for a html background.<br />
+                we use attritute_align(bottom, middle, top, left, right) to set alignment format.<br />
+                The fault alignment is bottom.<br /></div>
+            <div class="para">16. Image map<br />
+                Choose your favorite video website:<br /></p>
+                <img src="../../images/image_map.png" alt="image_map" usemap="#Three_website">
+                <map name="Three_website">
+                    <area shape="rect" coords="0,70,76,0" href="http://bilibili.com">
+                    <area shape="rect" coords="76,70,152,0" href="http://youku.com">
+                    <area shape="rect" coords="152,70,228,0" href="http://youtube.com">
+                </map>
+            </div>
+            <div class="para">17. colour<br />
+                colour value: use two format, <b>rpg(x, y, z)</b> which x, y, z are all in [0,225] and <b>a Hexadecimal
+                    value</b> between #000000 to #FFFFFF.<br />
+                colour name: HTML 4.0 support sixteen colour name as following<br /></p>
+                <img src="../../images/colour name.png" alt="sixteen legal colour name in html 4" vspace="10">
+            </div>
+            <div class="para">18. Frame:<br />
+                (1)no frames tag will show text in those browsers that do not support frames;<br />
+                (2)Navigation Bar to a selected anchorpoint.
+                (3)iframe tag can create inline frame, which can be include in body tag</div>
+            <div class="para">19.HTML CSS:<br />
+                (1)external CSS: &ltlink rel="stylesheet" type="text/css" herf="my first website.css"/&gt<br />
+                (2)internal CSS: use style tag in head tag<br />
+                (3)inline style: use style tag in elements' start tag
+                (4)In (1) and (2), don't leave a space between attritube value and unit. e.g. 10px is right, while 10 px
+                can't work well.</div>
+            <div class="para">20.Some character have special meaning in HTML, so we can't use them by type them,<br />
+                for example, if you type &lt, browser will not define them as a starting of a tag so will not show
+                them.<br />
+                The solution is <b>Character entity</b>.<br />
+                charater entity contain 3 parts: "&"+"entity name/value"+";"</div>
+            <div class="para">21.HTML head
+                head elements contain general information(title, base url, resource quote, meta-information) of html
+                document.<br />
+                Only following tags are legal in head tag:<br />base, link, meta, title, style, script.</div>
+            <div class="para">22.In general, meta element offer meta-information(like writer, content, keywords) for
+                search engines.</div>
+            <div class="para">23.HTML <acronym title="Uniform Resource Locator">URL</acronym><br />
+                An url is contain: scheme://host.domain:port/pach/filename
+                <dl>
+                    <li>Scheme</li>
+                    <dd>define internet type, most commmon is "http", "file" and "ftp"</dd>
+                    <li>domain</li>
+                    <dd>define internet domain, like "bilibili.com"</dd>
+                    <li>host</li>
+                    <dd>define the host in domain, if omit, then will be "www."</dd>
+                    <li>:post</li>
+                    <dd>usually be omitted, fault post is 80</dd>
+                    <li>path</li>
+                    <dd>define the path in sever. if omit, document will be located in rrot index</dd>
+                    <li>filename</li>
+                    <dd>define file name. if omit, the name will be default.asp or index.html<br /></dd>
+                </dl>
+                url can only be transport by using ASCII in the internet.<br />
+                However, url often contain charater that do not belong to ASCII, so we need url coding to translate
+                those
+                charater to ASCII.
+            </div>
+            <div class="para">24.We use script tag to insert script in .html.The syntax is : &ltscript type=""&gt
+                code&lt/script&gt<br />
+                If browser cannot recognize script tag or donot support script language, we use comment tag or noscript
+                tag to show information.<br /></div>
+            <div class="para">25.General attributes:
+                <dl>
+                    <li type="square">core attributes</li>
+                    <dd>class, id, style, title</dd>
+                    <li type="square">language attributes</li>
+                    <dd>dir, lang, xml:lang</dd>
+                    <li type="square">keyboard attributes</li>
+                    <dd>accesskey, tabindex</dd>
+                </dl>
+            </div>
+            <div class="para">26.HTML Events: response a script to user's action(like click, submit, keypress,
+                load)<br />There are a lot of events that can be summarize to these type:
+                <ul type="circle">
+                    <li>Window Events</li>
+                    <li>Form Element Events</li>
+                    <li>Image Events</li>
+                    <li>Keyboard Events</li>
+                    <li>Mouse Events</li>
+                </ul>
+            </div>
+            <div class="para">27.Web sever can handle protocol. When web sever get a http request, will send a
+                response.<br /> Oridinal web sever: <acronym title="Personal Web Server">PWS</acronym>,
+                <acronym title="Internet information Server"> IIS</acronym>,
+                <acronym title="Apache Server">APACHE</acronym>
+            </div>
+            <div class="para">28.div tag create a new block structure inside body, which can work with id or class
+                attritube and be very useful.<br></div>
+            <a name="advance"></a>
+            <h4>进阶笔记</h4>
+            <div class="para">1.[HTML]data-*attribute is used to store custom data private to the page or application,
+                which can be used in the page's JavaScript or CSS. With data-*, we get the ability to embed
+                custom data attributes on all HTML elements. In the example below, when we click "Owl" or
+                "Salmon" or "Taratula", page will alert messages which contain the custom data embed in
+                the &tlli&gt. data-* attribute is obvisually a good way to embed some information that you
+                want to aviod show directly to user, but show them when interacts happen.
+                <img src="images/data_example.png">
+            </div>
+            <a name="resource"></a>
+            <h4>前辈资源</h4>
+            <div class="para"></div>
+            <div class="para"></div>
+            <div class="para"></div>
+
+
+            <h3><a href="../../homepage.html">回到主页</a></h3>
+        </div>
+    </section>
+    <section class="commentbar">
+        <div class="comments">[0]备注</div>
+        <div class="comments"></div>
+    </section>
+    <script src="../../js/background.js"></script>
+    <script type="text/javascript" src="../../js/comments.js"></script>
+</body>
+
+</html>
