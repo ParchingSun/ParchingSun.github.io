@@ -8,11 +8,11 @@ function background() {
             <div>所</div>
             <div>不</div>
             <div>积</div>
-            <div>跬</div>
-            <div>步</div>
+            <div>博</div>
+            <div>之</div>
             <div>无</div>
             <div>以</div>
-            <div>至</div>
+            <div>风</div>
             <div>千</div>
             <div>里</div>
         </div>
@@ -176,6 +176,7 @@ function setStyle() {
             }
         `;
 }
+setStyle();
 
 // Hide and show index
 const indexBar = document.querySelectorAll('.index-con');

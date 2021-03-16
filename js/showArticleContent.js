@@ -27,7 +27,6 @@ function showTxt() {
 
         console.log(`document.body.offsetHeight: ${document.body.offsetHeight}`);
         console.log(`window.innerHeight: ${window.innerHeight}`);
-        setStyle();
 
     }
     xhr.send();
