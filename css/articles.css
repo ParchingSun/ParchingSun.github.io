@@ -34,18 +34,25 @@ a
     position: sticky;
     min-width: 185px;
     margin-top: 150px;
+    margin-left: 50px;
     top: 150px;
     left: 5px;
-    /* background-color: aqua; */
+
+}
+.index ul.index-body
+{
+    display:block;
 }
 .index ul li
 {
     margin-top: 20px;
+    list-style-type: circle;
 }
 .index a
 {
     text-decoration: none;
 }
+
 /* Content part of the whole page */
 .content
 {
@@ -65,6 +72,10 @@ a
     text-indent: 32px;
     width: 700px;
     /* margin: auto; */
+}
+img
+{
+    width: 500px;
 }
 h3.return
 {

@@ -51,11 +51,11 @@ function setStyle() {
     const bodyHeight = document.body.offsetHeight * 0.7;
     
     // Aviod scrollY float in short page
-    if(bodyHeight < window.innerHeight) {
-        console.log(`document.body.offsetHeight-bg: ${document.body.offsetHeight}`);
-        console.log(`window.innerHeight-bg: ${window.innerHeight}`);
-        document.body.style.overflowY = 'hidden';
-    }
+    // if(bodyHeight < window.innerHeight) {
+    //     console.log(`document.body.offsetHeight-bg: ${document.body.offsetHeight}`);
+    //     console.log(`window.innerHeight-bg: ${window.innerHeight}`);
+    //     document.body.style.overflowY = 'hidden';
+    // }
     
     document.querySelector('head style').innerHTML = 
         `
@@ -179,17 +179,50 @@ function setStyle() {
 setStyle();
 
 // Hide and show index
-const indexBar = document.querySelectorAll('.index-con');
+// const indexBar = document.querySelectorAll('.index-head');
 
-indexBar.forEach(function(book) {
-    book.nextElementSibling.style.display = 'none';
-    book.addEventListener('click', function(e){
-        if(book.nextElementSibling.style.display === 'none'){
-            book.nextElementSibling.style.display = 'block';
-        } else {
-            book.nextElementSibling.style.display = 'none';
-        }
-        e.preventDefault();
-    });
-});
+// function Index(){
+//     this.hideStop = false;
+
+// }
+
+// Index.prototype.clickEffect = function(inHead) {
+//     inHead.addEventListener('click', function(e){
+//         if(inHead.nextElementSibling.style.display === 'none'){
+//             inHead.nextElementSibling.style.display = 'block';
+//             this.hideStop = true;
+//         } else {
+//             inHead.nextElementSibling.style.display = 'none';
+//         }
+//         e.preventDefault();
+//     },this);
+// }
+
+// const index = new Index();
+// index.clickEffect(indexBar);
+// indexBar.forEach(function(book) {
+
+//     book.addEventListener('click', function(e){
+//         if(book.nextElementSibling.style.display === 'none'){
+//             book.nextElementSibling.style.display = 'block';
+//         } else {
+//             book.nextElementSibling.style.display = 'none';
+//         }
+//         e.preventDefault();
+//     });
+// });
+
+// window.addEventListener('scroll', hideIndexAuto);
+
+// function hideIndexAuto() {
+//     indexBar.forEach(function(book) {
+//         if(window.scrollY > 150 || stopHide === false){
+
+//             book.nextElementSibling.style.display = 'none';
+//         }
+       
+//     });
+// }
+
+
 
