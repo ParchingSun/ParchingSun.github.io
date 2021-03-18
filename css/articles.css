@@ -12,6 +12,7 @@ body
 {
     display: flex;
     justify-content: center;
+    /* font-size: 22px; */
 }
 h2, h3, h4
 {
@@ -34,7 +35,7 @@ a
     position: sticky;
     min-width: 185px;
     margin-top: 150px;
-    margin-left: 50px;
+    margin-left: 20px;
     top: 150px;
     left: 5px;
 

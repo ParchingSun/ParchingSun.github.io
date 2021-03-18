@@ -41,14 +41,14 @@ html,body {
 	font-size: 5rem;
 	position: absolute;
 	text-align: center;
-	margin-top: -10%;
+	margin-top: -15%;
 	animation: godown 3s 0.5s 1 forwards cubic-bezier(0.57, 0.02, 0.13, 0.99);
 	border: 2px black solid ;
 	padding: 1rem;
 }
 @keyframes godown {
 	to{
-		margin-top:40%;
+		margin-top:35%;
 	}
 }
 .entrance {

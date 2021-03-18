@@ -74,10 +74,6 @@ marginTopData.getAllCommentsHeight(contentR);
 marginTopData.getCommentsLines();
 marginTopData.getAllCommentsSequence();
 
-// console.log(marginTopData.oHA);
-// console.log(marginTopData.tLNA);
-console.log(marginTopData.mTA);
-
 // Set comments postion
 comments.forEach(function(com, index) {
     // window.getComputedStyle(com, null).marginTop = marginTopData.paraTopArray[index];
@@ -87,12 +83,3 @@ comments.forEach(function(com, index) {
 })
 
 
-// __________________________________________________
-// Change text indent of paragraph for lang=en page
-const para = document.querySelectorAll('.para');
-if (document.documentElement.lang == 'en') {
-    para.forEach(function(para) {
-        para.style.textIndent = '0px';
-        para.style.fontFamily = '\'Courier New\', Courier, monospace';
-    })
-}

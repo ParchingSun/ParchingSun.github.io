@@ -42,13 +42,12 @@ function background() {
         </div>
     `;
 }
-background();
 
 // Insert style into 'head style'
 // let style = document.querySelector('head style').innerHTML;
 function setStyle() {
 
-    const bodyHeight = document.body.offsetHeight * 0.7;
+    const bodyHeight = document.body.offsetHeight;
     
     // Aviod scrollY float in short page
     // if(bodyHeight < window.innerHeight) {
@@ -62,7 +61,7 @@ function setStyle() {
             section.background {
                 position: absolute;
                 width: 100%;
-                height: ${bodyHeight}px;
+                height: ${bodyHeight+ 10}px;
                 z-index: -1;
             }
             .set {
@@ -166,6 +165,7 @@ function setStyle() {
                     transform: translateX(-20px) rotate(225deg);
                 }
             }
+            
             .set2{
                 transform: scale(2) rotateY(180deg);
                 filter: blur(2px);
@@ -176,53 +176,10 @@ function setStyle() {
             }
         `;
 }
+
+background();
 setStyle();
 
-// Hide and show index
-// const indexBar = document.querySelectorAll('.index-head');
-
-// function Index(){
-//     this.hideStop = false;
-
-// }
-
-// Index.prototype.clickEffect = function(inHead) {
-//     inHead.addEventListener('click', function(e){
-//         if(inHead.nextElementSibling.style.display === 'none'){
-//             inHead.nextElementSibling.style.display = 'block';
-//             this.hideStop = true;
-//         } else {
-//             inHead.nextElementSibling.style.display = 'none';
-//         }
-//         e.preventDefault();
-//     },this);
-// }
-
-// const index = new Index();
-// index.clickEffect(indexBar);
-// indexBar.forEach(function(book) {
-
-//     book.addEventListener('click', function(e){
-//         if(book.nextElementSibling.style.display === 'none'){
-//             book.nextElementSibling.style.display = 'block';
-//         } else {
-//             book.nextElementSibling.style.display = 'none';
-//         }
-//         e.preventDefault();
-//     });
-// });
-
-// window.addEventListener('scroll', hideIndexAuto);
-
-// function hideIndexAuto() {
-//     indexBar.forEach(function(book) {
-//         if(window.scrollY > 150 || stopHide === false){
-
-//             book.nextElementSibling.style.display = 'none';
-//         }
-       
-//     });
-// }
 
 
 

@@ -1,42 +1,5 @@
-<!DOCTYPE html>
-<html lang="zh-Hans">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="../../css/articles.css">
-    <style></style>
-    <title>啪卿领域</title>
-</head>
-<body>
-    <section class="background">
-    </section>
-    <section class="indexbar">
-        <div class="index">
-            <ol>
-                <li class="index-con"><h3><a href="acgn-interface.html">ACGN库</a></h3></li>
-                <li class="index-con">
-                    <h3><a href="game-analyse.html">游戏体验与分析</a></h3>
-                    <ul>
-                        <li><a href="#p01">映月城与电子姬体验</a></li>
-                        <li><a href="game-ana-2.html">Cystus 2体验</a></li>
-                        <li><a href="game-ana-3.html">万象物语体验</a></li>
-                        <li><a href="game-ana-4.html">万象物语数值试推</a></li>
-                    </ul>
-                </li>
-                <li class="index-con"><h3><a href="game-story-writing.html">游戏剧情创作</a></h3></li>
-                <li class="index-con">
-					<h3 class="return"><a href="../../homepage.html">返回主页</a></h3>
-				</li>
-            </ol>
-        </div>
-    </section>
-    <section class="content">
-        <div class="article">
-            <h2>游戏体验与分析</h2>
-            <h3>万象物语</h3>
-                <h4>基本资源</h4>
-                    <div class="para">
+<h4>基本资源</h4>
+<div class="para">
                         <ol>
                             <li>库伦：基本资源</li>
                             <li>魂晶碎片：高阶货币，可发挥部分透晶石的作用</li>
@@ -69,19 +32,3 @@
                     </div>
                 
                 <div class="para"></div>
-                <h3><a href="../../homepage.html">回到主页</a></h3>
-        </div>
-    </section>
-    <section class="commentbar">
-        <div class="comments"></div>
-        <div class="comments"></div>
-    </section>
-    <script src="../../js/background.js"></script>
-    <script type="text/javascript" src="../../js/comments.js"></script>
-    <script>
-        for(let i = 0; i < 4; i++) {
-            document.querySelectorAll('.index-con')[i].nextElementSibling.style.display = 'block';
-        }
-    </script>
-</body>
-</html>

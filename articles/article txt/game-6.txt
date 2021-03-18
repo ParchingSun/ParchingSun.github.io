@@ -1,0 +1,41 @@
+<h4>世界观和剧情的表现方式</h4>
+                <div class="para">用场景表现剧情：场景设计要有故事性、有延伸感</div>
+                <h4>如何做一个有魅力的角色？</h4>
+                <h5>制作顺序</h5>
+                <div class="para">1. 身份</div>
+                <div class="para">2. 连外形内的标签，有化学反应</div>
+                <div class="para">3. 设定性格复杂度</div>
+                <div class="para">4. 补充细节</div>
+                <div class="para">5. 补充台词</div>
+                <div class="para">6. 补充背景、成长环境、家庭环境</div>
+                <div class="para">7. 补充小传，当下的故事</div>
+                <div class="para">8. 人物关系</div>
+                <div class="para">5678同时进行相互校正</div>
+                <h5>设计角度</h5>
+                <div class="para">1. 性格复杂度</div>
+                <div class="para"> 1）复杂度1：角色的身份/高度</div>
+                <div class="para">身份包括世界观身份和功能身份（法师/战士/远程）</div>
+                <div class="para">高度简单来说就是大人物还是小人物，具体可以细化到不同领域</div>
+                <div class="para"> 2）复杂度2：标签、特点</div>
+                <div class="para">外形与身份的关联与化学反应（如反差）</div>
+                <div class="para">鲜明的第一印象，配饰、配色赋予一定的想象空间</div>
+                <div class="para">3）复杂度3：性格</div>
+                <div class="para">主性格：绝大多数时间内的性格</div>
+                <div class="para">附属性格：特定场景下的表现</div>
+                <div class="para">深层性格：重要决策时主导选择的性格</div>
+                <div class="para">结合身份的性格反差</div>
+                <div class="para">4）复杂度4：缺点</div>
+                <div class="para">2. 刺激荷尔蒙</div>
+                <div class="para">3. 超我意识：信念、使命、愿景</div>
+                <div class="para">要击中价值观趋同的玩家</div>
+                <div class="para">4. 突破玩家认知</div>
+                <div class="para">1）身份和性格的反差</div>
+                <div class="para">2）打破现有边界（道德、实力）</div>
+                <div class="para">3）强烈反差</div>
+                <div class="para">5. 和玩家的认知连接</div>
+                <div class="para">不光自已要找原型，也要能够让玩家找到原型</div>
+                <div class="para">6. 与玩家的情感共鸣</div>
+                <div class="para">1）相似的伤痕和经历</div>
+                <div class="para">2）身份的认同感</div>
+                <div class="para">3）价值观的认同感</div>
+                <div class="para">7. 凝练标签</div>

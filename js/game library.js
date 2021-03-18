@@ -82,9 +82,8 @@ function showGameNames(e) {
     
 }
 
-// HideGameNames
-// function hideGameNames() {
-//     for( let i = 3; i < 17; i = i + 2){
-//         datachild[i].innerHTML = '';
-//     }
-// }
+let content = '';
+mtpS.data.forEach(function(game) {
+        content += game;
+})
+console.log(content);
