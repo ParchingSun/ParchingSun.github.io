@@ -82,6 +82,12 @@ h3.return
 {
     margin-top: 5rem;
 }
+#time
+{
+    font-size: 12px;
+    color: rgb(207, 207, 207);
+    margin-bottom: 12px;
+}
 /* Comment part of the whole page */
 .commentbar
 {
@@ -125,4 +131,8 @@ span.output
 span.notation
 {
     color: rgb(162, 162, 81);
+}
+span.quote
+{
+    font-family: 'KaiTi', 'KaiTi_GB2312', 'DFKai-SB';
 }

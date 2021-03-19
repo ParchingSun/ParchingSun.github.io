@@ -24,7 +24,7 @@ switch(head) {
         break;
     case '散论杂议':
         part = 'topic'
-        num = 1;
+        num = 2;
         break;
     case '基本文章':
         part = 'basic'
@@ -48,7 +48,7 @@ function showIndex() {
             // Open file
             let indexs = new XMLHttpRequest();
 
-            indexs.open('GET', `${part}-${i}.html`, false);
+            indexs.open('GET', `${part}-${i}.html`, true);
 
             indexs.onload = function () {
 

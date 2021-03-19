@@ -15,6 +15,10 @@ function showTxt(callback) {
         // insert h4 and img tags
         pureText = insertTags(pureText, '####', 'h4');
         pureText = insertTags(pureText, '@@@@', 'img');
+        pureText = insertTags(pureText, '$');
+        pureText = insertTags(pureText, '|', 'quote');
+        pureText = insertTags(pureText, '+', 'comment');
+
 
         // A Wrong Example: charAt will ingore space, so 
 
@@ -26,6 +30,8 @@ function showTxt(callback) {
         para.forEach(function(para) {
             if(para.includes('h4') || para.includes('img')){
                 con += para;
+            } else if(para.includes('$')) {
+                con = con;
             } else {
                 let div = `<div class="para">${para}</div>`;
                 con += div;
@@ -84,6 +90,73 @@ function insertTags(text, target, repl) {
         }
 
         return text;
+    } else if (target === '$') {
+        // Get the the last update content
+        let end = text.lastIndexOf(target);
+        let start = text.lastIndexOf(target, end-1);
+
+        // get update content and time in the head of page
+        const upCon = text.slice(start + 1, end);
+        const upTim = document.lastModified;
+        if(document.getElementById('time')) {
+            document.getElementById('time').innerText = `更新时间：${upTim}  更新内容：${upCon}`;
+        }
+
+        return text;
+    } else if (target === '|') {
+        // Get the quote number
+        let quoNum = 0;
+    
+        for(let i = 0; i < text.length; i++) {
+            if(text.charAt(i) === '|') {
+                quoNum++;
+            }
+        }
+    
+        quoNum = quoNum / 2;
+    
+        // Replace every | with span.quote
+        for(let i = 0; i < quoNum; i++){
+            let start = text.indexOf(target);
+            let end = text.indexOf(target, start + 1);
+        
+            text = text.slice(0, start) + `<span class="${repl}">` + text.slice(start + 1, end) + `</span>` + text.slice(end + 1);
+        }
+
+        return text;
+    } else if (target === '+') {
+        // Get the comment number
+        let comNum = 0;
+    
+        for(let i = 0; i < text.length; i++) {
+            if(text.charAt(i) === '+') {
+                comNum++;
+            }
+        }
+    
+        comNum = comNum / 2;
+    
+        // Replace every + with [] and create comment div
+        for(let i = 0; i < comNum; i++){
+            let start = text.indexOf(target);
+            let end = text.indexOf(target, start + 1);
+
+            // get comments text
+            const comText = text.slice(start + 1, end);
+
+            text = text.slice(0, start) + `[${i}]` + text.slice(end + 1);
+            
+            // create comments
+            const comdiv = document.createElement('div');
+            comdiv.className = 'comments';
+            comdiv.innerText = `[${i}]${comText}`;
+
+            // append comments to the page
+            const conBar = document.querySelector('.commentbar');
+            conBar.appendChild(comdiv);
+        }
+
+        return text;
     }
 
 
@@ -102,7 +175,6 @@ showTxt(function() {
             para.style.textIndent = '0px';
         });
     }
+    // add Comments -> comments.js
+    addComment();
 });
-
-
-

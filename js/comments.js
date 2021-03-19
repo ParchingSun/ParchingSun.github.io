@@ -1,5 +1,7 @@
 
 // AUTO COMMENTS POSTION
+
+function addComment() {
 // Define basic vars
 const contentR = Array.from(document.querySelector('.article').children);
 const comments = document.querySelectorAll('.comments');
@@ -27,7 +29,6 @@ CommentsMar.prototype.getAllCommentsHeight = function(array) {
                     let linesB; // lines belong
                     let posInPara = (i + 1) / (paraCon.length - 13); // -13 is unclear!
                     linesB = Math.ceil(posInPara * linesP);
-                    console.log(linesB);
                     paraTop = (para.offsetTop - 8 + (linesB - 1) * lineHeightP); // -8 is unclear!
                     this.oHA.push(paraTop);
                 }
@@ -59,7 +60,6 @@ CommentsMar.prototype.getAllCommentsSequence = function() {
     for(let i = 2; i < this.tLNA.length; i++) {
         // allmargintop = offsetHeight - total comments line-height- total margin-top before
         this.mTA[i] = this.oHA[i] - this.oHA[0] - this.tLNA[i-1] * lineHeightC - allMarginTop;
-        console.log(i, this.mTA[i]);
         // set min-margin-top, avoid comments hide eaother
         if(this.mTA[i] < 0) {
             this.mTA[i] = 0;
@@ -69,10 +69,12 @@ CommentsMar.prototype.getAllCommentsSequence = function() {
     }
 }
 
+
 const marginTopData = new CommentsMar();
 marginTopData.getAllCommentsHeight(contentR);
 marginTopData.getCommentsLines();
 marginTopData.getAllCommentsSequence();
+
 
 // Set comments postion
 comments.forEach(function(com, index) {
@@ -81,5 +83,8 @@ comments.forEach(function(com, index) {
     // console.log(index);
     com.style.marginTop = `${marginTopData.mTA[index]}px`;
 })
+}
+
+
 
 
