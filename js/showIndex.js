@@ -8,7 +8,7 @@ switch(head) {
     case '游戏体验与分析':
     case '游戏剧情创作':
         part = 'game';
-        num = 8;
+        num = 9;
         break;
     case '《建安五年春》':
         part = 'jian';

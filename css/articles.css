@@ -136,3 +136,7 @@ span.quote
 {
     font-family: 'KaiTi', 'KaiTi_GB2312', 'DFKai-SB';
 }
+span.strong
+{
+    text-decoration: rgb(180, 180, 180) wavy underline;;
+}

@@ -17,7 +17,9 @@ function showTxt(callback) {
         pureText = insertTags(pureText, '@@@@', 'img');
         pureText = insertTags(pureText, '$');
         pureText = insertTags(pureText, '|', 'quote');
+        pureText = insertTags(pureText, '*', 'strong');
         pureText = insertTags(pureText, '+', 'comment');
+
 
 
         // A Wrong Example: charAt will ingore space, so 
@@ -117,6 +119,28 @@ function insertTags(text, target, repl) {
     
         // Replace every | with span.quote
         for(let i = 0; i < quoNum; i++){
+            let start = text.indexOf(target);
+            let end = text.indexOf(target, start + 1);
+            
+        
+            text = text.slice(0, start) + `<span class="${repl}">` + text.slice(start + 1, end) + `</span>` + text.slice(end + 1);
+        }
+
+        return text;
+    } else if (target === '*') {
+        // Get the strong number
+        let strNum = 0;
+    
+        for(let i = 0; i < text.length; i++) {
+            if(text.charAt(i) === '*') {
+                strNum++;
+            }
+        }
+    
+        strNum = strNum / 2;
+    
+        // Replace every | with span.quote
+        for(let i = 0; i < strNum; i++){
             let start = text.indexOf(target);
             let end = text.indexOf(target, start + 1);
         
