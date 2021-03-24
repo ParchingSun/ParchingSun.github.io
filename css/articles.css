@@ -76,7 +76,14 @@ a
 }
 img
 {
-    width: 500px;
+    width: 600px;
+    margin-left: 50px;
+}
+.imgInfo
+{
+    font-size: 14px;
+    color: rgb(185, 185, 185);
+    text-align: center;
 }
 h3.return
 {
@@ -138,5 +145,5 @@ span.quote
 }
 span.strong
 {
-    text-decoration: rgb(180, 180, 180) wavy underline;;
+    text-decoration: rgb(235, 157, 157) wavy underline;;
 }

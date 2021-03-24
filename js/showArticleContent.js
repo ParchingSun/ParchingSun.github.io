@@ -14,7 +14,7 @@ function showTxt(callback) {
 
         // insert h4 and img tags
         pureText = insertTags(pureText, '####', 'h4');
-        pureText = insertTags(pureText, '@@@@', 'img');
+        pureText = insertTags(pureText, '@', 'img');
         pureText = insertTags(pureText, '$');
         pureText = insertTags(pureText, '|', 'quote');
         pureText = insertTags(pureText, '*', 'strong');
@@ -71,7 +71,7 @@ function insertTags(text, target, repl) {
         }
     
         return text;
-    } else if (target === '@@@@') {
+    } else if (target === '@') {
         // Get the image number
         let imgNum = 0;
     
@@ -81,14 +81,18 @@ function insertTags(text, target, repl) {
             }
         }
     
-        imgNum = imgNum / 8;
+        imgNum = imgNum / 2;
     
-        // Replace every @@@@ with img
+        // Replace every @ with img
         for(let i = 0; i < imgNum; i++){
             let start = text.indexOf(target);
-            let end = text.indexOf(target, start + 4);
-        
-            text = text.slice(0, start) + `<${repl}` + ` src="${text.slice(start + 4, end)}">` + text.slice(end + 4);
+            let middle = text.indexOf('~', start + 1);
+            let end = text.indexOf(target, start + 1);
+
+            console.log(start, middle, end);
+            
+            console.log(text.slice(middle + 1, end));
+            text = text.slice(0, start) + `<div class="imgInfo">${text.slice(start + 1, middle)}</div>` + `<${repl}` + ` src="${text.slice(middle + 1, end)}">` + text.slice(end + 1) ;
         }
 
         return text;
