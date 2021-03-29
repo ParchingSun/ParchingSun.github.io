@@ -12,8 +12,8 @@ function showTxt(callback) {
         let article = document.querySelector('.article');
         let pureText = xhr.responseText;
 
-        // insert h4 and img tags
-        pureText = insertTags(pureText, '####', 'h4');
+        // insert tags
+        // pureText = insertTags(pureText, '####', 'h4');
         pureText = insertTags(pureText, '@', 'img');
         pureText = insertTags(pureText, '$');
         pureText = insertTags(pureText, '|', 'quote');
@@ -30,7 +30,10 @@ function showTxt(callback) {
 
         // create paragraph div
         para.forEach(function(para) {
-            if(para.includes('h4') || para.includes('img')){
+            if(para.includes('#')){
+                para = insertTags(para, '#', null);
+                con += para;
+            } else if(para.includes('img')){
                 con += para;
             } else if(para.includes('$')) {
                 con = con;
@@ -50,25 +53,24 @@ function showTxt(callback) {
 
 function insertTags(text, target, repl) {
 
-    if(target === '####') {
+    if(target === '#') {
         // Get the titles number
-        let headNum = 0;
+        let titleNum = 0;
     
         for(let i = 0; i < text.length; i++) {
             if(text.charAt(i) === '#') {
-                headNum++;
+                titleNum++;
             }
         }
     
-        headNum = headNum / 8;
+        const titleLev = titleNum / 2;
     
         // Replace every #### with h4
-        for(let i = 0; i < headNum; i++){
-            let start = text.indexOf(target);
-            let end = text.indexOf(target, start + 4);
+        let start = text.indexOf(target);
+        let end = text.indexOf(target, start + titleLev);
         
-            text = text.slice(0, start) + `<${repl}>` + text.slice(start + 4, end) + `</${repl}>` + text.slice(end + 4);
-        }
+        text = text.slice(0, start) + `<h${titleLev}>` + text.slice(start + titleLev, end) + `</h${titleLev}>` + text.slice(end + titleLev);
+
     
         return text;
     } else if (target === '@') {

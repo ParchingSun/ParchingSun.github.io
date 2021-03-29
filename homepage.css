@@ -27,12 +27,13 @@ body {
 	font-family: STSong;
 	overflow: hidden;
 }
-
-/* heading in jiagu */
+/* heading*/
+h1{
+    width: 700px;
+}
 #heading{
     font-family: beishidajiagu;
 }
-
 /* Three plates */
 .plate{
     display: flex;
@@ -100,21 +101,32 @@ a:hover{
     width: 550px;
     height: 600px;
 }
+
 /* set border of h2 */
 h2{
     border-left: 10px solid black; 
     padding-left: 8px;
  }
-/* doc name */
-h4 {
-    font-family: tengxiangsongminjian;
-}
 /* link of doc */
 a {
 	text-decoration: none;
 	color: #858585;
 }
+table
+{
+    width: 700px;
+    border-collapse: separate;
+    border-spacing: 15px;
+    font-family: tengxiangsongminjian;
+    font-weight: 600;
+}
+.time
+{
 
+    font-size: 12px;
+    font-weight: 500;
+    color: #858585;
+}
 /* ul li a::before
 {
     content: attr(data-title);
