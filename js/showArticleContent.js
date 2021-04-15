@@ -174,12 +174,12 @@ function insertTags(text, target, repl) {
             // get comments text
             const comText = text.slice(start + 1, end);
 
-            text = text.slice(0, start) + `[${i}]` + text.slice(end + 1);
+            text = text.slice(0, start) + `[${i+1}]` + text.slice(end + 1);
             
             // create comments
             const comdiv = document.createElement('div');
             comdiv.className = 'comments';
-            comdiv.innerText = `[${i}]${comText}`;
+            comdiv.innerText = `[${i+1}]${comText}`;
 
             // append comments to the page
             const conBar = document.querySelector('.commentbar');

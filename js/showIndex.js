@@ -25,7 +25,7 @@ switch(head) {
         break;
     case '散论杂议':
         part = 'topic'
-        num = 2;
+        num = 3;
         break;
     case '基本文章':
         part = 'basic'
