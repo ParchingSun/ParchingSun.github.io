@@ -14,7 +14,7 @@ switch(head) {
     case '《卷耳》':
     case '《茶山巫蛇》':
         part = 'jian';
-        num = 9;
+        num = 10;
         break;
     case '专业学习':
         part = 'study';
