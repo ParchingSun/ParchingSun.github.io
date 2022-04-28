@@ -13,8 +13,9 @@ switch(head) {
     case '《建安五年春》':
     case '《卷耳》':
     case '《茶山巫蛇》':
+    case '《夜读聊斋听鬼哭》':
         part = 'jian';
-        num = 10;
+        num = 11;
         break;
     case '专业学习':
         part = 'study';
